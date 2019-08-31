@@ -1,0 +1,39 @@
+spriteTypes = {
+	spriteType = { 
+		name = "GFX_society_main_background_soc_congress"
+		texturefile = "gfx\\interface\\societies\\society_bg_soc_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_society_expansion_background_soc_congress"
+		texturefile = "gfx\\interface\\societies\\society_exp_bg_soc_congress.dds"
+	}
+	spriteType = { 
+		name = "GFX_icon_small_soc_congress"
+		texturefile = "gfx\\interface\\societies\\symbol_small_soc_congress.dds"
+		noOfFrames = 2
+	}
+	spriteType = { 
+		name = "GFX_society_influence_soc_congress"
+		texturefile = "gfx\\interface\\societies\\society_influence_soc_congress.dds"
+	}
+	spriteType = { 
+		name = "GFX_society_portrait_ring_soc_congress"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_soc_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_society_portrait_ring_small_soc_congress"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_small_soc_congress.dds"
+	}
+	spriteType = { 
+		name = "GFX_society_currency_soc_congress"
+		texturefile = "gfx\\interface\\societies\\society_currency_soc_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_constitutional_rep"
+		texturefile = "gfx\\interface\\government_icon_constitution.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_mconstitutional_rep"
+		texturefile = "gfx\\interface\\government_icon_mconstitution.dds"
+	}
+}

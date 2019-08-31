@@ -1,0 +1,43 @@
+EVTNAMEUSD1;Americanist Patron;;;;;;;;;;;;;x
+EVTDESCUSD1;Now that I am of age, it is time for me to choose the President I wish to emulate.;;;;;;;;;;;;;x
+EVTOPTAUSD1;I choose Washington, the greatest of all the Presidents;;;;;;;;;;;;;x
+EVTOPTBUSD1;I choose Jefferson, Expander of America and Protector of Funds;;;;;;;;;;;;;x
+EVTOPTCUSD1;I choose Lincoln, Equalizer and Breaker of Chains and Traitors;;;;;;;;;;;;;x
+EVTOPTDUSD1;I choose Roosevelt, Strength Incarnate;;;;;;;;;;;;;x
+
+washington_patron;You choose Washington, the Chief;;;;;;;;;;;;;x
+jefferson_patron;You choose Jefferson, the Trademaster;;;;;;;;;;;;;x
+lincoln_patron;You choose Lincoln, the Uniter;;;;;;;;;;;;;x
+roosevelt_patron;You choose Roosevelt, the Strong;;;;;;;;;;;;;x
+
+#EVTDESCUSD2;I have chosen Washington as my patron;;;;;;;;;;;;;x
+#EVTOPTAUSD2;May my sword by swift!;;;;;;;;;;;;;x
+#EVTDESCUSD3;I have chosen Jefferson as my patron;;;;;;;;;;;;;x
+#EVTOPTAUSD3;May my actions be of a true patriot!;;;;;;;;;;;;;x
+#EVTDESCUSD4;I have chosen Lincoln as my patron;;;;;;;;;;;;;x
+#EVTOPTAUSD4;May my tongue sway hearts and minds!;;;;;;;;;;;;;x
+#EVTDESCUSD5;I have chosen Hamilton as my patron;;;;;;;;;;;;;x
+#EVTOPTAUSD5;May my coffers be filled!;;;;;;;;;;;;;x
+
+washington;Washingtonian;;;;;;;;;;;;;x
+washington_desc;This character has chosen Washington, the Chief, as their patron;;;;;;;;;;;;;x
+jefferson;Jeffersonian;;;;;;;;;;;;;x
+jefferson_desc;This character has chosen Jefferson, the Trademaster, as their patron;;;;;;;;;;;;;x
+lincoln;Lincolnian;;;;;;;;;;;;;x
+lincoln_desc;This character has chosen Lincoln, the Uniter, as their patron;;;;;;;;;;;;;x
+roosevelt;Rooseveltian;;;;;;;;;;;;;x
+roosevelt_desc;This character has chosen Roosevelt, the Strong, as their patron;;;;;;;;;;;;;x
+
+EVTDESCUSD2;Now that you are President, you may choose to reverse some of the decisions made by your late predecessor.;;;;;;;;;;;;;x
+EVTOPTAUSD2;The last president may have gotten some things wrong...;;;;;;;;;;;;;x
+cleared_excommunications;You decide to make an executive order, reversing all excommunications of the previous administration.;;;;;;;;;;;;;x
+EVTOPTBUSD2;A president's word is infallible!;;;;;;;;;;;;;x
+keep_excommunications;You decide to keep all excommunications made by the last president.;;;;;;;;;;;;;x
+EVTDESCUSD3;The president has justed ordered that all previously excommunicated Americanists be allowed to return to the courts, granted that they are true to the faith.;;;;;;;;;;;;;x
+EVTOPTAUSD3;May Washington bless the president!;;;;;;;;;;;;;x
+EVTDESCUSD4;The President has chosen not to remove your unjust excommunicated his predecessor laid upon you.;;;;;;;;;;;;;x
+EVTOPTAUSD4;Disappointing...;;;;;;;;;;;;;x
+
+bad_patriot;Immoral Patriot;;;;;;;;;;;;;x
+bad_president;Immoral President;;;;;;;;;;;;;x
+primo_prez;Hereditary Presidency;;;;;;;;;;;;;x

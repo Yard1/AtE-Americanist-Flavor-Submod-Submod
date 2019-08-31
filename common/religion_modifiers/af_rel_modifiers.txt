@@ -1,0 +1,12 @@
+bad_patriot = {
+  authority = -10
+  years = 10
+}
+bad_president = {
+  authority = -5
+  years = 5
+}
+primo_prez = {
+  authority = -30
+  years = 20
+}

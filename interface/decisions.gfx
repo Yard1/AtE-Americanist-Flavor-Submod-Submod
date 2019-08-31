@@ -1,0 +1,78 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_american_renaissance"
+		texturefile = "gfx/interface/form_the_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_embrace_american_culture"
+		texturefile = "gfx/interface/form_the_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_choose_americanist_patron"
+		texturefile = "gfx/interface/form_the_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_create_congress"
+		texturefile = "gfx/interface/create_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_call_to_congress"
+		texturefile = "gfx/interface/restore_presidency.dds"
+	}
+	spriteType = {
+		name = "GFX_form_party"
+		texturefile = "gfx/interface/form_the_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_join_party"
+		texturefile = "gfx/interface/form_the_usa.dds"
+	}
+	spriteType = {
+		name = "GFX_run_for_speaker"
+		texturefile = "gfx/interface/election_run.dds"
+	}
+	spriteType = {
+		name = "GFX_drop_out_of_campaign_spkr"
+		texturefile = "gfx/interface/election_drop.dds"
+	}
+	spriteType = {
+		name = "GFX_show_candidates_spkr"
+		texturefile = "gfx/interface/election_candidates.dds"
+	}
+	spriteType = {
+		name = "GFX_hold_opinion_poll_spkr"
+		texturefile = "gfx/interface/election_poll.dds"
+	}
+	spriteType = {
+		name = "GFX_executive_order_us"
+		texturefile = "gfx/interface/restore_presidency.dds"
+	}
+	spriteType = {
+		name = "GFX_propose_legislation"
+		texturefile = "gfx/interface/propose_legislation.dds"
+	}
+	spriteType = {
+		name = "GFX_propose_tax_legislation"
+		texturefile = "gfx/interface/propose_legislation.dds"
+	}
+	spriteType = {
+		name = "GFX_executive_order_us"
+		texturefile = "gfx/interface/restore_presidency.dds"
+	}
+	spriteType = {
+		name = "GFX_hereditary_prez"
+		texturefile = "gfx/interface/restore_presidency.dds"
+	}
+	spriteType = {
+		name = "GFX_party_census"
+		texturefile = "gfx/interface/decision_icon_vassal_fatwa_decision.dds"
+	}
+	spriteType = {
+		name = "GFX_prepare_inaug_ceremony"
+		texturefile = "gfx/interface/decision_icon_coronation_ceremony.dds"
+	}
+	spriteType = {
+		name = "GFX_prepare_inaug_ceremony_prez"
+		texturefile = "gfx/interface/restore_presidency.dds"
+	}
+}

@@ -1,0 +1,128 @@
+targetted_decisions = {
+	grant_medal_f = {
+		only_playable = yes
+		ai_check_interval = 12
+
+		from_potential = {
+			has_landed_title = d_americanist
+		}
+
+		potential = {
+			NOT = {	character = FROM }
+			NOT = { trait = medal_freedom }
+			OR = {
+				has_job_title = yes
+				is_landed = yes
+				has_minor_title = title_commander
+				has_minor_title = title_chief_justice
+				has_minor_title = title_attorney_general
+				has_minor_title = title_vice_president
+				has_minor_title = title_chief_of_staff
+				has_minor_title = title_national_intelligence
+				has_minor_title = title_joint_chief
+				any_spouse = { character = FROM }
+				any_child = { character = FROM }
+			}
+		}
+
+		allow = {	
+			scaled_wealth = 0.25
+			prisoner = no
+			in_command = no
+			is_inaccessible_trigger = no
+			ROOT = {
+				age = 16
+				NOT = { trait = incapable }
+				NOT = { trait = infirm }
+				is_inaccessible_trigger = no
+				prisoner = no
+				in_command = no
+				religion = americanist
+			}
+		}
+		
+		effect = {
+			custom_tooltip = { text = grant_mf }
+			FROM = {
+				scaled_wealth = -0.25
+				save_event_target_as = mf_giver
+			}
+			ROOT = { 
+				hidden_tooltip = {
+					character_event = { id = MF.1 }
+				}
+			}
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+
+		ai_will_do = {
+			factor = 0.2
+			
+			modifier = {
+				factor = 1.5
+				reverse_opinion = { who = FROM value = 40 }
+			}
+			modifier = {
+				factor = 0.2
+				NOT = { reverse_opinion = { who = FROM value = 5 } }
+			}
+			modifier = {
+				factor = 0
+				FROM = { is_rival = ROOT }
+			}
+			modifier = {
+				factor = 100
+				FROM = {
+					OR = {
+						is_friend = ROOT
+						dynasty = ROOT
+						AND = {
+							culture = FROM
+							higher_tier_than = COUNT
+							opinion = { who = ROOT value = 70 }
+						}
+						AND = {
+							culture = FROM
+							higher_tier_than = DUKE
+							NOT = { opinion = { who = ROOT value < 10 } }
+						}
+						AND = {
+							NOT = { culture = FROM }
+							higher_tier_than = DUKE
+							opinion = { who = ROOT value = 70 } 
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 2.5
+				ROOT = {
+					higher_tier_than = COUNT
+				}
+			}
+			modifier = {
+				factor = 5
+				ROOT = {
+					higher_tier_than = DUKE
+					NOT = { culture = FROM }
+				}
+			}
+			modifier = {
+				factor = 10
+				ROOT = {
+					higher_tier_than = KING
+					NOT = { culture = FROM }
+				}
+			}
+			modifier = {
+				factor = 5
+				ROOT = {
+					culture = FROM
+				}
+			}
+		}
+	}
+}

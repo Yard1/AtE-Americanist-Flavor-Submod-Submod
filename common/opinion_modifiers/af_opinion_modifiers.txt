@@ -1,0 +1,8 @@
+opinion_loyal_party_member = {
+	opinion = 50
+	months = 1200	# For life
+}
+opinion_disloyal_party_member = {
+	opinion = 50
+	months = 1200	# For life
+}

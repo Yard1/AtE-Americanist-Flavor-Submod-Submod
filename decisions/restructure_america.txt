@@ -1,0 +1,41 @@
+decisions = {
+
+	restructure_america_af = {
+		is_high_prio = yes
+		potential = {
+			has_landed_title = e_usa
+			OR = {
+				government = constitutional_rep
+				government = mconstitutional_rep
+			}
+		}
+		allow = {
+			age = 16
+			is_inaccessible_trigger = no
+		}
+			
+		effect = {
+			any_title_under = {
+				limit = {
+					NOT = { tier = EMPEROR }
+					any_direct_de_jure_vassal_title = {
+						if = {
+							limit = { holder_scope = { always = yes } }
+							set_defacto_liege = PREV
+						}
+						else = {
+							gain_title = PREV
+						}
+					}
+				}
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 1 #will always take if allowed
+		}
+	}
+	
+}

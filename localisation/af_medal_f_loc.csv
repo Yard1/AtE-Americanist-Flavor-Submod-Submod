@@ -1,0 +1,10 @@
+grant_medal_f;Grant the Medal of Freedom;;;;;;;;;;;;;x
+grant_medal_f_desc;Grant [Root.GetTitledFirstName] the Presidential Medal of Freedom, the highest honor a President is able to give.;;;;;;;;;;;;;x
+
+grant_mf;Grant Medal of Freedom;;;;;;;;;;;;;x
+
+EVTDESCMF1;President [mf_giver.GetDynName] has granted me the prestigous honor of the Medal of Freedom.;;;;;;;;;;;;;x
+EVTOPTAMF1;I am truly blessed by [Root.Religion.GetRandomGodName];;;;;;;;;;;;;x
+
+medal_freedom;Presidential Medal of Freedom;;;;;;;;;;;;;x
+medal_freedom_desc;This Americanist has received the Presidential Medal of Freedom, a high honor given to those who have proven themselves through service to the faith, the President, or to Americanists as a whole.;;;;;;;;;;;;;x

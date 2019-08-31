@@ -1,0 +1,289 @@
+#Society
+soc_congress;Congress;;;;;;;;;;;;;x
+string_soc_congress;soc_congress;;;;;;;;;;;;;x
+
+soc_congress_desc;This group of nobles is the revival of the once great Congress of prediluvian America, the meeting of nobility to debate and vote on laws. Reconvened by the ruler of the restored America, it is made up of nobles from all across the United States, with a goal of keeping the powers of their liege in check.;;;;;;;;;;;;;x
+soc_congress_leader_desc;The Speaker of Congress, the overseer of all Congressional debate;;;;;;;;;;;;;x
+
+soc_congress_rank_1_female;Congresswoman;;;;;;;;;;;;;x
+soc_congress_rank_2_female;Chairwoman;;;;;;;;;;;;;x
+soc_congress_rank_3_female;Whip;;;;;;;;;;;;;x
+soc_congress_rank_4_female;Caucus Leader;;;;;;;;;;;;;x
+soc_congress_rank_1_male;Congressman;;;;;;;;;;;;;x
+soc_congress_rank_2_male;Chairman;;;;;;;;;;;;;x
+soc_congress_rank_3_male;Whip;;;;;;;;;;;;;x
+soc_congress_rank_4_male;Party Leader;;;;;;;;;;;;;x
+
+soc_congress_currency;Political Influence;;;;;;;;;;;;;x
+request_to_rank_up_within_soc_congress;Request assignment.;;;;;;;;;;;;;x
+request_to_rank_up_within_soc_congress_tt;Has [Root.Society.GetCurrency]§! greater or equal to [Root.GetSocietyRankUpTooltip1];;;;;;;;;;;;;x
+congress_gain_tier_duke_tooltip;Is a Duke;;;;;;;;;;;;;x
+congress_gain_tier_king_tooltip;Is a King;;;;;;;;;;;;;x
+
+SPEAKER_TITLE;Speaker;;;;;;;;;;;;;x
+SPEAKER_TITLE_FEMALE;Speaker;;;;;;;;;;;;;x
+
+propose_legislation_power_desc;Propose a piece of legislation to further your and your party's goals.;;;;;;;;;;;;;x 
+
+propose_tax_legislation_power_desc;As a member of the Democrepublican Party, it is your duty to uphold both the Constitution and the Edicts of Washington. Lately, however, both documents have been violated by unequal demands of tax and levies from the lords, patricians, and clergy of America. As a remedy, you may put forth legislation to readjust the tax and levy laws.;;;;;;;;;;;;;x
+
+whip_up_support_power_desc;Convince a member of Congress to join your party.;;;;;;;;;;;;;x
+
+run_for_speaker_power_desc;Run for the office of Speaker of Congress, a position that grants a large amount of influence over the rest of the body.;;;;;;;;;;;;;x
+
+evaluate_legislation;Evaluate Legislation;;;;;;;;;;;;;x
+evaluate_legislation_power_desc;If you are Speaker, all legislation proposed by a Congressperson must pass through your office, and you have the final say.;;;;;;;;;;;;;x
+
+#Political Parties
+form_party;Form Political Party;;;;;;;;;;;;;x 
+form_party_desc;Even though Congress has just been reconvened, political factions have already began to crystalize. I can use this factionalization to my advantage;;;;;;;;;;;;;x
+
+EVTDESCSC1;Political factions have already taken root in Congress, I have the oppurtunity to form an official party.;;;;;;;;;;;;;x
+EVTOPTASC1;I shall fight against the tyranny of the executive.;;;;;;;;;;;;;x
+demrep_TT;Form the Democrepublican Party;;;;;;;;;;;;;x
+EVTOPTBSC1;I shall fight against the tyranny of mob rule.;;;;;;;;;;;;;x
+am_loyalist_TT;Form the Loyalist Party;;;;;;;;;;;;;x
+
+join_party;Join Political Party;;;;;;;;;;;;;x 
+join_party_desc;As a member of Congress, it is politically expedient for you to caucus with one of the parties.;;;;;;;;;;;;;x 
+
+EVTDESCSC2;Now that I am a member of the esteemed Congress, I can choose to associate myself with a political party.;;;;;;;;;;;;;x
+EVTOPTASC2;I'll join the Democrepublicans;;;;;;;;;;;;;x
+EVTOPTBSC2;I'll join the Loyalists;;;;;;;;;;;;;x
+
+demrep;Democrepublican;;;;;;;;;;;;;x
+demrep_desc;This character is part of the Democrepublican Party, sworn to protect the rights of man from the executive.;;;;;;;;;;;;;x
+am_loyalist;Loyalist;;;;;;;;;;;;;x
+am_loyalist_desc;This character is part of the Loyalist Party, sworn to defend the nation from mob rule.;;;;;;;;;;;;;x
+
+#Convening Congress
+create_congress;Convene Congress;;;;;;;;;;;;;x
+create_congress_desc;Now that the Edict of the Constitution has been forced upon me by my vassals, it seems appropriate to reestablish Congress, the great body of old American nobles who decided the trajectory of United States. Maybe I can use it to my advantage.;;;;;;;;;;;;;x
+create_congress_tooltip;Reconvene Congress;;;;;;;;;;;;;x
+
+call_to_congress;Reconvene Congress;;;;;;;;;;;;;x
+call_to_congress_desc;Not all my vassals are part of Congress, so I must again send out summons to Washington.;;;;;;;;;;;;;x 
+call_to_congress_TT;Call your vassals to Congress.;;;;;;;;;;;;;x 
+
+EVTNAMESC3;Reformation of Congress;;;;;;;;;;;;;x
+EVTDESCSC3;I have given the orders to the [Root.Religion.GetPriestTitle] of Washington to prepare Congress for the arrival of my vassals, now all I need to do is send out the invitations.;;;;;;;;;;;;;x
+EVTOPTASC3;My fastest messengers shall be on the job!;;;;;;;;;;;;;x
+congress_send_invites_TT;Deliver invitations to all count-level and above vassals of your realm;;;;;;;;;;;;;x
+
+EVTNAMESC4;The Convening of Congress;;;;;;;;;;;;;x
+EVTDESCSC4;I have been called to serve in the nation's Congress by [From.GetTitle] [From.GetFullName].;;;;;;;;;;;;;x
+EVTOPTASC4;I am glad to serve America (and my interests);;;;;;;;;;;;;x
+
+#Opinion Modifiers
+opinion_loyal_party_member;Loyal Party Member;;;;;;;;;;;;;x
+opinion_disloyal_party_member;Disloyal Party Member;;;;;;;;;;;;;x
+
+#Election of the Speaker
+run_for_speaker;Run for Speaker of Congress;;;;;;;;;;;;;x
+run_for_speaker_desc;Run for the office of Speaker of Congress, a position that grants a large amount of influence over the rest of the body.;;;;;;;;;;;;;x 
+drop_out_of_campaign_spkr;Drop Out of the Campaign;;;;;;;;;;;;;x 
+drop_out_of_campaign_spkr_desc;The polls don't prove that [Root.Religion.Religion.GetRandomGodName] is favoring you for Speaker right now. It is best to drop out of this Speakership race and save your dignity.;;;;;;;;;;;;;x 
+
+show_candidates_spkr;Show Speakership Candidates;;;;;;;;;;;;;x 
+show_candidates_spkr_desc;Show the list of people currently running for Speaker;;;;;;;;;;;;;x 
+
+hold_opinion_poll_spkr;Hold an Opinion Poll;;;;;;;;;;;;;x 
+hold_opinion_poll_spkr_desc;Gauge the current atmosphere around your bid for the Speakership.;;;;;;;;;;;;;x 
+
+on_campaign_speaker;On Campaign;;;;;;;;;;;;;x
+on_campaign_speaker_desc;This character is running for Speaker of Congress.;;;;;;;;;;;;;x
+speaker;Speaker;;;;;;;;;;;;;x
+speaker_desc;This character is the Speaker of Congress, an incredibly important position within the new American government.;;;;;;;;;;;;;x
+
+EVTDESCSC5;Now that Congress has been convened, I must send an order to the new Congresspeople that a Speaker must be elected among them.;;;;;;;;;;;;;x
+EVTOPTASC5;I must send my fastest messanger;;;;;;;;;;;;;x
+
+first_speaker_election;The Speakership is vacant, and a new Speaker must be elected to lead Congress.;;;;;;;;;;;;;x
+speaker_dead;Speaker [From.GetFullName] has passed on, and a new Speaker must be elected to lead Congress.;;;;;;;;;;;;;x
+EVTOPTASC6;May [Root.Religion.Religion.GetRandomGodName] bless Congress;;;;;;;;;;;;;x
+evtsc6_TT;You will have one month to declare your candidacy (use the "Run for Speaker" decision);;;;;;;;;;;;;x
+
+EVTDESCSC7;[From.GetFullName] has declared [From.GetHerHis] candidacy for the Speakership.;;;;;;;;;;;;;x
+EVTOPTASC7;May the best candidate win;;;;;;;;;;;;;x
+
+EVTDESCASC8;[From.GetFullName] has ended [From.GetHerHis] campaign for the Speakership.;;;;;;;;;;;;;x
+EVTDESCBSC8;[From.GetFullName] has died, ending [From.GetHerHis] campaign for the Speakership.;;;;;;;;;;;;;x
+
+EVTDESCSC9;The following people have declared their candidacy for the Speakership:;;;;;;;;;;;;;x
+EVTOPTASC9;(Mouse over to see candidates);;;;;;;;;;;;;x
+speaker_candidate_TT;is a candidate for Speaker\n;;;;;;;;;;;;;x
+
+EVTDESCSC16;The campaigning season is nearly at an end. In one month, the ballots will be cast and [Root.Religion.GetHighGodName] will make their will known.;;;;;;;;;;;;;x
+EVTOPTASC16;May the best [This.GetManWoman] win;;;;;;;;;;;;;x
+
+EVTDESCSC18;Which candidate for Speaker shall we vote for?;;;;;;;;;;;;;x
+EVTOPTASC18;[sc1.GetFullName];;;;;;;;;;;;;x
+EVTOPTBSC18;[sc2.GetFullName];;;;;;;;;;;;;x
+EVTOPTCSC18;[sc3.GetFullName];;;;;;;;;;;;;x
+EVTOPTDSC18;[sc4.GetFullName];;;;;;;;;;;;;x
+SC18_TT;Cast our vote for this candidate\n;;;;;;;;;;;;;x
+
+EVTNAMESC20;Victory!;;;;;;;;;;;;;x
+EVTDESCDSC20;The Founding Fathers have made their will known through the voice of Congress, anointing me as Speaker of Congress. The results of the election were as follows:\n\n[sc1.GetFullName]: [FromFrom.sc1_votes.GetValue] votes\n[sc2.GetFullName]: [FromFrom.sc2_votes.GetValue] votes\n[sc3.GetFullName]: [FromFrom.sc3_votes.GetValue] votes\n[sc4.GetFullName]: [FromFrom.sc4_votes.GetValue] votes;;;;;;;;;;;;;x
+EVTDESCCSC20;The Founding Fathers have made their will known through the voice of Congress, anointing me as Speaker of Congress. The results of the election were as follows:\n\n[sc1.GetFullName]: [FromFrom.sc1_votes.GetValue] votes\n[sc2.GetFullName]: [FromFrom.sc2_votes.GetValue] votes\n[sc3.GetFullName]: [FromFrom.sc3_votes.GetValue] votes;;;;;;;;;;;;;x
+EVTDESCBSC20;The Founding Fathers have made their will known through the voice of Congress, anointing me as Speaker of Congress. The results of the election were as follows:\n\n[sc1.GetFullName]: [FromFrom.sc1_votes.GetValue] votes\n[sc2.GetFullName]: [FromFrom.sc2_votes.GetValue] votes;;;;;;;;;;;;;x
+EVTDESCASC20;The Founding Fathers have made their will known through the voice of Congress, anointing me as Speaker of Congress. The results of the election were as follows:\n\n[sc1.GetFullName]: [FromFrom.sc1_votes.GetValue] votes;;;;;;;;;;;;;x
+EVTOPTASC20;Praise [Root.Religion.Religion.GetRandomGodName]!;;;;;;;;;;;;;x
+
+EVTDESCDSC21;The results of the election are as follows:\n\n[sc1.GetFullName]: [FromFrom.sc1_votes.GetValue] votes\n[sc2.GetFullName]: [FromFrom.sc2_votes.GetValue] votes\n[sc3.GetFullName]: [FromFrom.sc3_votes.GetValue] votes\n[sc4.GetFullName]: [FromFrom.sc4_votes.GetValue] votes;;;;;;;;;;;;;x
+EVTDESCCSC21;The results of the election are as follows:\n\n[sc1.GetFullName]: [FromFrom.sc1_votes.GetValue] votes\n[sc2.GetFullName]: [FromFrom.sc2_votes.GetValue] votes\n[sc3.GetFullName]: [FromFrom.sc3_votes.GetValue] votes;;;;;;;;;;;;;x
+EVTDESCBSC21;The results of the election are as follows:\n\n[sc1.GetFullName]: [FromFrom.sc1_votes.GetValue] votes\n[sc2.GetFullName]: [FromFrom.sc2_votes.GetValue] votes;;;;;;;;;;;;;x
+EVTDESCASC21;The results of the election are as follows:\n\n[sc1.GetFullName]: [FromFrom.sc1_votes.GetValue] votes;;;;;;;;;;;;;x
+EVTOPTADESC21;All hail [sp_winner.GetFullName], Speaker of Congress!;;;;;;;;;;;;;x
+
+sc1votes;Received [FromFrom.sc1_votes.GetValue] votes\n;;;;;;;;;;;;;x
+sc2votes;Received [FromFrom.sc2_votes.GetValue] votes\n;;;;;;;;;;;;;x
+sc3votes;Received [FromFrom.sc3_votes.GetValue] votes\n;;;;;;;;;;;;;x
+sc4votes;Received [FromFrom.sc4_votes.GetValue] votes\n;;;;;;;;;;;;;x
+EVTDESCSC29;The results of the poll have arrived.;;;;;;;;;;;;;x
+EVTOPTASC29;(Mouse over to view results);;;;;;;;;;;;;x
+
+##Proposing Legislation
+#Taxation Legislation
+propose_tax_legislation;Propose Tax Legislation;;;;;;;;;;;;;x 
+propose_tax_legislation_desc;As a member of the Democrepublican Party, it is your duty to uphold both the Constitution and the Edicts of Washington. Lately, however, both documents have been violated by unequal demands of tax and levies from the lords, patricians, and clergy of America. As a remedy, you may put forth legislation to readjust the tax and levy laws.;;;;;;;;;;;;;x 
+not_content_TT;Is not content with any current law.;;;;;;;;;;;;;x
+can_vote_TT;No resolution has been put forth by the Speaker in one year.;;;;;;;;;;;;;x
+
+EVTDESCSC33;[Root.TopLiege.GetTitle] [Root.TopLiege.GetFullName] has overstepped the boundaries of the Edicts of Washington and the Constitution, forcing my hand towards the legislative process. I shall send [Root.Society.GetTitledGrandMasterName] my bill once it is finished.;;;;;;;;;;;;;x
+EVTOPTASC33;I hope [Root.Society.GrandMaster.GetSheHe] takes action against this tyranny.;;;;;;;;;;;;;x
+
+EVTDESCSC34;I have finally finished writing my new tax and levy bill, and now it is ready to send to the Speaker.;;;;;;;;;;;;;x
+EVTOPTASC34;May the Speaker hear my pleas.;;;;;;;;;;;;;x
+
+EVTDESCSC35;A messanger has delivered a bill to my desk. As Speaker of Congress, it is my duty to curate what is and is not on the Congressional Floor.;;;;;;;;;;;;;x
+EVTOPTASC35;This bill is well-written enough, let it pass.;;;;;;;;;;;;;x
+speaker_assent_TT;The bill shall be voted on in one month;;;;;;;;;;;;;x
+EVTOPTBSC35;This bill is unacceptable!;;;;;;;;;;;;;x
+speaker_no;Send a message to Congress[From.GetManWoman] [From.GetFullName], denying his request;;;;;;;;;;;;;x
+
+EVTDESCSC36;Speaker [From.GetFullName] has denied my bill a chance to be voted upon!;;;;;;;;;;;;;x
+EVTOPTASC36;[Root.Religion.GetRandomGodName] damn him!;;;;;;;;;;;;;x
+
+#Other legislation
+propose_legislation;Propose Legislation;;;;;;;;;;;;;x 
+propose_legislation_desc;Propose a piece of legislation to further your and your party's goals.;;;;;;;;;;;;;x 
+speaker_available;The Speaker is currently available.;;;;;;;;;;;;;x 
+
+demrep_leg_TT;[Root.TopLiege.GetTitle] [Root.TopLiege.GetFullName] has overstepped the boundaries of the Edicts of Washington and the Constitution, forcing my hand towards the legislative process. I shall send [Root.Society.GetTitledGrandMasterName] my bill once it is finished.;;;;;;;;;;;;;x
+aml_leg_TT;[Root.TopLiege.GetTitle] [Root.TopLiege.GetFullName] is currently being obstructed by a unfairly restricting interpretation Edicts of Washington and the Constitution, forcing my hand towards the legislative process. I shall send [Root.Society.GetTitledGrandMasterName] my bill once it is finished.;;;;;;;;;;;;;x
+EVTOPTASC37;I shall do my best to prevent the [Root.TopLiege.GetTitle] from becoming a tyrant.;;;;;;;;;;;;;x
+EVTOPTBSC37;I shall do my best to cast off these Congressional shackles.;;;;;;;;;;;;;x
+
+EVTDESCSC38;Now that I am set on delivering a bill to the Speaker, what sort of bill shall I send [Root.Society.GrandMaster.GetHerHim]?;;;;;;;;;;;;;x
+EVTOPTASC38;The [Root.TopLiege.GetTitle]'s war powers need to be reevaluated.;;;;;;;;;;;;;x
+EVTOPTBSC38;The [Root.TopLiege.GetTitle]'s Cabinet need some readjusting.;;;;;;;;;;;;;x
+EVTOPTCSC38;The [Root.TopLiege.GetTitle]'s powers of punishment need to be looked into.;;;;;;;;;;;;;x
+EVTOPTDSC38;The [Root.TopLiege.GetTitle]'s ability to administer titles requires changing.;;;;;;;;;;;;;x
+
+neg_tax_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill readjusting tax and levy obligations will be put on the Floor next month.;;;;;;;;;;;;;x
+neg_war_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill decreasing the [Root.TopLiege.GetTitle]'s war powers will be put on the Floor next month.;;;;;;;;;;;;;x
+pos_war_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing the [Root.TopLiege.GetTitle]'s war powers will be put on the Floor next month.;;;;;;;;;;;;;x
+neg_vp_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing the Cabinet's powers will be put on the Floor next month.;;;;;;;;;;;;;x
+pos_vp_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill decreasing the Cabinet's powers will be put on the Floor next month.;;;;;;;;;;;;;x
+neg_pt_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill decreasing the [Root.TopLiege.GetTitle]'s punishment powers will be put on the Floor next month.;;;;;;;;;;;;;x
+pos_pt_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing the [Root.TopLiege.GetTitle]'s punishment powers will be put on the Floor next month.;;;;;;;;;;;;;x
+neg_te_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill decreasing the [Root.TopLiege.GetTitle]'s title allocation powers will be put on the Floor next month.;;;;;;;;;;;;;x
+pos_te_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing the [Root.TopLiege.GetTitle]'s title allocation powers will be put on the Floor next month.;;;;;;;;;;;;;x
+EVTOPTASC39;May [Root.Religion.GetRandomGodName] guide my vote.;;;;;;;;;;;;;x
+legislation_TT;The resolution will be voted on within the next thirty days.;;;;;;;;;;;;;x
+
+neg_tax_TT_v;"The question is on the adoption of the following resolution: Readjustment of American Vassal Tax and Levy Obligations. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+neg_war_TT_v;"The question is on the adoption of the following resolution: Decreasing Executive War Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+pos_war_TT_v;"The question is on the adoption of the following resolution: Increasing Executive War Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+neg_vp_TT_v;"The question is on the adoption of the following resolution: Increasing Cabinet Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+pos_vp_TT_v;"The question is on the adoption of the following resolution: Decreasing Cabinet Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+neg_pt_TT_v;"The question is on the adoption of the following resolution: Decreasing Executive Punishment Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+pos_pt_TT_v;"The question is on the adoption of the following resolution: Increasing Executive Punishment Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+neg_te_TT_v;"The question is on the adoption of the following resolution: Decreasing Executive Title Allocation Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+pos_te_TT_v;"The question is on the adoption of the following resolution: Increasing Executive Title Allocation Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+EVTOPTASC42;Aye;;;;;;;;;;;;;x
+cast_yes_TT;Cast a yes vote for this resolution;;;;;;;;;;;;;x
+EVTOPTBSC42;No;;;;;;;;;;;;;x
+cast_no_TT;Cast a no vote for this resolution;;;;;;;;;;;;;x
+
+EVTNAMESC44;Victory!;;;;;;;;;;;;;x
+EVTDESCSC44;My bill has passed Congress, and now their demands are being sent to [Root.TopLiege.GetTitle] [Root.TopLiege.GetFullName].;;;;;;;;;;;;;x
+EVTOPTASC44;Excellent;;;;;;;;;;;;;x
+
+EVTNAMESC45;Failure...;;;;;;;;;;;;;x
+EVTDESCSC45;My motion has failed to garner enough support in Congress to pass.;;;;;;;;;;;;;x
+EVTOPTASC45;Oh well...;;;;;;;;;;;;;x
+
+EVTDESCSC46;The recent resolution has passed Congress.\nThe results are as follows:\nAyes: [FromFrom.leg_aye.GetValue]\n\nNoes: [FromFrom.leg_no.GetValue];;;;;;;;;;;;;x
+EVTOPTASC46;May this outcome be under the auspices of [Root.Religion.GetRandomGodName];;;;;;;;;;;;;x
+
+EVTDESCSC47;The recent resolution has failed to passed Congress.\nThe results are as follows:\nAyes: [FromFrom.leg_aye.GetValue]\n\nNoes: [FromFrom.leg_no.GetValue];;;;;;;;;;;;;x
+EVTOPTASC47;May this outcome be under the auspices of [Root.Religion.GetRandomGodName];;;;;;;;;;;;;x
+
+EVTDESCSC48;I have received demands from Congress, requesting me to officially chance my laws to be in line with the recently passed bill.;;;;;;;;;;;;;x
+EVTOPTASC48;Hopefully this will do the nation some good...;;;;;;;;;;;;;x
+
+#Edicts of Washington
+executive_order_us;Issue an Emergency Powers Executive Order;;;;;;;;;;;;;x
+executive_order_us_desc;After the Edicts of Washington were forced upon me, my powers as [Root.GetTitle] have been severely limited. However, I may be able to get Congress to return power to me, and cement my authority as the supreme executive of the United States.;;;;;;;;;;;;;x
+speaker_loyal;The Speaker is a Loyalist;;;;;;;;;;;;;x 
+con_support_TT;Congress has given back authority to the [Root.GetTitle].;;;;;;;;;;;;;x
+
+EVTNAMESC50;Edicts of Washington;;;;;;;;;;;;;x
+EVTDESCSC50;While I was in the middle of important administration work, a messanger delivered a letter, signed by "The Lords of America". My vassals have collectively demanded that I follow both the Constitution and their own contract, the Edicts of Washington. With the entire realm united behind this cause, I find it necessary to bend the knee, just this once.;;;;;;;;;;;;;x
+EVTOPTASC50;I swear to [Root.Religion.GetRandomGodName] that I will wring each and every traitor's neck!;;;;;;;;;;;;;x
+edict_TT;Accept the terms of their demands, and change your laws accordingly.;;;;;;;;;;;;;x
+
+EVTNAMESC51;The Orders;;;;;;;;;;;;;x
+EVTDESCSC51;I have just sent out the executive order repealing the Edicts of Washington and dissolving Congress, finally putting the power back into the hands of the one who deserves it: me.;;;;;;;;;;;;;x
+EVTOPTASC51;Hail to the Chief!;;;;;;;;;;;;;x
+exec_order_TT;Reinstate a pre-Edict government.;;;;;;;;;;;;;x
+
+EVTDESCSC52;The [Root.TopLiege.GetTitle] has issued an executive order repealing the Edicts of Washington and declaring Congress dissolved.;;;;;;;;;;;;;x
+EVTOPTASC52;May [Root.Religion.GetRandomGodName] strike [From.GetHerHim] down!;;;;;;;;;;;;;x
+
+tyrant;Tyrant;;;;;;;;;;;;;x
+tyrant;This character has abused their power in such as was as to be labeled a tyrant.;;;;;;;;;;;;;x
+INSULT_TYRANT;tyrant;;;;;;;;;;;;;x
+INSULT_TYRANNICAL;tyrannical;;;;;;;;;;;;;x
+
+#Whip Up Support
+whip_up_support;Convince to Join Party;;;;;;;;;;;;;x
+whip_up_support_desc;Convince a member of Congress to join your party.;;;;;;;;;;;;;x 
+
+EVTDESCSC53;Congress[sender_whip.GetManWoman] [sender_whip.GetFullName] has sent me a letter, detailing [sender_whip.GetHerHis] party's manifesto, and how I should officially make the switch.;;;;;;;;;;;;;x 
+EVTOPTASC53;[sender_whip.GetSheHeCap] makes a good point.;;;;;;;;;;;;;x 
+EVTOPTBSC53;I am loyal to my party, even after death!;;;;;;;;;;;;;x 
+
+EVTDESCSC54;Congress[receiver_whip.GetManWoman] [receiver_whip.GetFullName] has responded to my letter, and agreed to change parties.;;;;;;;;;;;;;x 
+EVTOPTASC54;Splendid.;;;;;;;;;;;;;x 
+
+EVTDESCSC55;Congress[receiver_whip.GetManWoman] [receiver_whip.GetFullName] has responded to my letter, and told me to never message him about changing parties ever again.;;;;;;;;;;;;;x 
+EVTOPTASC55;Damn... maybe next time?;;;;;;;;;;;;;x 
+
+#Party Census
+party_census;Take Party Census;;;;;;;;;;;;;x
+party_census_desc;Take a census of Congress to see how many people are in each party.;;;;;;;;;;;;;x
+
+EVTDESCSC57;Since this is your census, you should probably vote too.;;;;;;;;;;;;;x
+EVTOPTASC57;Democrepublican, obviously;;;;;;;;;;;;;x
+EVTOPTBSC57;Loyalist, obviously;;;;;;;;;;;;;x
+
+EVTDESCSC58;The census results are as follows:\n\nDemocrepublicans: [FromFrom.demrep_v.GetValue]\n\nLoyalists: [FromFrom.aml_v.GetValue];;;;;;;;;;;;;x
+EVTOPTASC58;OK;;;;;;;;;;;;;x
+
+#Hereditary Presidency
+hereditary_prez;Hereditary Presidency;;;;;;;;;;;;;x
+hereditary_prez_desc;As [Root.GetTitle] President of the United States of America, it is obvious that I am sent directly from Washington to reform the mighty nation that once was. But what about my successors? Surely the Founders did not send me without ensuring my lineage was of the same stock. In light of this revalation, I shall issue an executive order declaring that the Presidency henceforth shall be hereditary.;;;;;;;;;;;;;x
+
+EVTNAMESC59;Declaration of Succession;;;;;;;;;;;;;x 
+EVTDESCSC59;"As the Washington-sent ruler of the greatest nation of the United States of America, my actions and words are the actions and words of the Founders. Therefore, it is my duty to ensure the Presidency is in the hands of the most capable person of the faith. And so, with the powers vested in me by the People and Founders of the United States of America, in this Year of Our Independence, I declare that the Presidency shall be succeeded by my heirs."\nAs I look for the responses from my vassals, the jeers from the crowds are deafening.;;;;;;;;;;;;;x 
+EVTOPTASC59;Why are you booing me? I'm right!;;;;;;;;;;;;;x 
+prez_adopt_TT;The title of the Presidency shall adopt the United States' inheritance laws.;;;;;;;;;;;;;x 
+
+EVTDESCSC60;As the President's words registered in my mind, I could not believe what I was hearing. A hereditary Presidency? [From.GetSheHe] must be mad!;;;;;;;;;;;;;x 
+EVTOPTASC60;May [From.GetSheHe] be tarred and feathered like tyrants of old.;;;;;;;;;;;;;x 
+
+EVTDESCSC61;As [Root.GetTitle] and President of the Unites States of America, I must adopt the titles and styles appropriate to my office.;;;;;;;;;;;;;x 
+EVTDESCSC61;Hail to the Chief!;;;;;;;;;;;;;x 

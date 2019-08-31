@@ -1,0 +1,85 @@
+us_triumph_held;Your vassals are impressed by this display of American power.;;;;;;;;;x
+
+EVTNAMEUSC.1;The Commonwealth of Virginia;;;;;;;;;x
+EVTDESCUSC.1;The Commonwealth of Virginia was the origin of many founding fathers, including Washington. Previously fought over by Southron and Americanist alike, we have now united it under [This.Religion.GetHighGodName]'s eternal light. A triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x 
+EVTOPTAUSC.1;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.2;The Commonwealth of Pennsylvania;;;;;;;;;x
+EVTDESCUSC.2;The Commonwealth of Pennsylvania is home to many antediluvian ruins, and was the meeting place of the Continental Congress. We have now reunited it with America, and a triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.2;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.4;New Jersey;;;;;;;;;x
+EVTDESCUSC.4;New Jersey is home to many diverse peoples and religions, all seemingly coexisting together. A place of immense wealth and population, it will serve us well in the future. A triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.4;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.3;New York;;;;;;;;;x
+EVTDESCUSC.3;New York State was a rich and beautiful place before the event, and still is a shining beacon of antediluvian values and modern wealth. We have now reconquered its lands, and a triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.3;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.5;New England;;;;;;;;;x
+EVTDESCUSC.5;New England was the birthplace of the Revolution, and it houses one of the most important trade cities, Boston. We have taken it from the the tribal lords, and a triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.5;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.6;The Carolinas;;;;;;;;;x
+EVTDESCUSC.6;The Carolinas have prospered after the event, being filled with fertile soil and natural ports. Now that it is a part of America oncce again, it can flourish even further. A triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.6;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.7;The South;;;;;;;;;x
+EVTDESCUSC.7;The South grew the cash crops that fueled antediluvian America, and it was a powerful force in the Capitol. We have now taken the its fertile land under our fold, and a triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.7;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.8;Florida;;;;;;;;;x
+EVTDESCUSC.8;Florida, with its sunny shores and affluent cities, seems like a veritable paradise. Now that the "Sunshine Realm" has been reconquered by America, a triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.8;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.9;The Dakotas;;;;;;;;;x
+EVTDESCUSC.9;The Dakotas hold the grand monument of Mount Rushmore, which displays the effigies of the founders. It was a symbol of the unobtainability of the power of the Old Republic. But on this day, the "Unobtainable Dream" has just been obtained. A triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.9;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.10;Texas;;;;;;;;;x
+EVTDESCUSC.10;Texas has been the sight of religious turmoil for as long as anyone could remember. Under old America, however, it was a peaceful and rich state. Now that it has returned to its rightful overlords, a triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.10;May America live evermore!!;;;;;;;;;x
+
+EVTNAMEUSC.11;The American Caribbean;;;;;;;;;x
+EVTDESCUSC.11;The presence of Americanists within many isles of the Caribbean has fueled many speculations about the true extent of the old America. Whatever the case may be, their presence gives us a reason to rule these rich islands. A grand, elaborate triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.11;All hail [Root.GetTitledFirstName]!;;;;;;;;;x
+
+EVTNAMEUSC.12;Canada;;;;;;;;;x
+EVTDESCUSC.12;According to the whispers of men who study antediluvian history, the Old US attempted to invade Canada many times, but never succeeded in their endevour. Now we have proven our worth by finishing what the Old Republic had started. A grand, elaborate triumph will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.12;All hail [Root.GetTitledFirstName]!;;;;;;;;;x
+
+EVTNAMEUSC.13;Pax Americana;;;;;;;;;x
+EVTDESCUSC.13;The [Root.GetTitle] of The United States of America has just reunited the central lands of the Old Republic. It no longer can be denied that the United States has been reborn. A grand triump will be held in Washington in honor of [Root.GetTitledFirstName];;;;;;;;;x
+EVTOPTAUSC.13;A new age is upon us! May [This.Religion.GetHighGodName]'s eternal light shine!;;;;;;;;;x
+EVTDESCUSC.14;In honor of America's recent victory, it would be appropriate to hold a triumph in the capital for the heroic soldiers who fought in the campaign. Such an arrangement will be expensive, but the people expect nothing less.;;;;;;;;;x
+
+EVTOPTAUSC.14;Yes, a glorious triumph will be held.;;;;;;;;;x
+EVTOPTBUSC.14;A brief ovation at the Capitol should be enough.;;;;;;;;;x
+EVTOPTCUSC.14;No, we have no time for such nonsense.;;;;;;;;;x
+
+EVTTOOLTIPUSC.15;A triumph is held in the National Mall.;;;;;;;;;x
+EVTDESCUSC.15;A mighty triumph is held in the National Mall to celebrate the brave generals and soldiers who brought defeat to the enemies of America. The people cheer as buglers lead a long procession that includes parading legions, carts filled with the spoils of war, and banners representing the various states that participated in the war.;;;;;;;;;x
+EVTOPTAUSC.15;The United States is on the verge of success.;;;;;;;;;x
+
+EVTDESCUSC.16;The [Root.TopLiege.GetTitle] has commanded that a triumph be held in the National Mall to celebrate the brave soldiers responsible for America's recent victory. The people cheer as trumpeters lead a long procession that includes parading legions, carts filled with the spoils of war, and banners representing the various states that participated in the war.;;;;;;;;;x
+EVTOPTAUSC.16;An impressive display.;;;;;;;;;x
+
+EVTNAMEUSC.17;Chicagoland;;;;;;;;;x
+EVTDESCUSC.17;The Great Lakes are the gateway of trade between the Atlantic coast and the Mississippi River. Many merchants from all background flock to the region, and particulary Chicago, once considered a peer to New York, until the Norseman Soady raized the city. A grand, elaborate triumph will be held in Washington in honor of [Root.GetTitledFirstName].;;;;;;;;;x
+EVTOPTAUSC.17;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.18;The Heartland;;;;;;;;;x
+EVTDESCUSC.18;The Heartland is home to the great Misssissippi River, and produces what seems like endless amounts of food to be sold and traded. Now that America once again controls it, it is possible none in our nation may go hungry. A grand, elaborate triumph will be held in Washington in honor of [Root.GetTitledFirstName].;;;;;;;;;x
+EVTOPTAUSC.18;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.19;The Appalachians;;;;;;;;;x
+EVTDESCUSC.19;Appalachia was once considered a daunting force. Tribesmen and the mountain were frequent killers of regiments, but now, the land is safe, under the rule of America, of course. A grand, elaborate triumph will be held in Washington in honor of [Root.GetTitledFirstName].;;;;;;;;;x
+EVTOPTAUSC.19;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.20;The Rockies;;;;;;;;;x
+EVTDESCUSC.20;The Rockies have been known to be an extremely dangerous region. Deserts and mountains will eat through supplies, and bandits may be afoot around any corner. Nevertheless, America has reconquered the lands, and can finally put order to this anarchy. A grand, elaborate triumph will be held in Washington in honor of [Root.GetTitledFirstName].;;;;;;;;;x
+EVTOPTAUSC.20;May America live evermore!;;;;;;;;;x
+
+EVTNAMEUSC.21;From Sea to Shining Sea;;;;;;;;;x
+EVTDESCUSC.21;Back before the Event, America has been known to have stretched the width of this continent. None in this era believed that America can extend that far anymore, but the same could be said about America existing in this age. A hub of culture snd trade, California and the rest of the Pacific will be a fine addition to this new America. A grand, elaborate triumph will be held in Washington in honor of [Root.GetTitledFirstName].;;;;;;;;;x
+EVTOPTAUSC.21;May America live evermore!;;;;;;;;;x

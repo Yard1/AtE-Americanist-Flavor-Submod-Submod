@@ -1,0 +1,244 @@
+soc_congress = {
+	primary_attribute = diplomacy
+	opinion_to_other_members = +10
+	opinion_per_rank_above = +5
+	sound = warrior_lodge_ambient_01
+	society_influence = no
+	
+	non_interference = {
+		always = yes
+	}
+	
+	active = {
+		has_dlc = "Holy Fury"
+		has_global_flag = flag_restored_congress
+		NOT = {
+			has_global_flag = dissolved_congress
+		}
+	}
+	can_join_society = {
+		hidden_trigger = {
+			NAND = {
+				ai = yes
+				is_society_rank_full = { 
+					society = soc_congress
+					rank = 1
+				}
+			}
+		}
+		NOR = {
+			has_landed_title = d_americanist
+			has_landed_title = e_usa
+		}
+		is_adult = yes
+		NOT = { trait = excommunicated }
+		hidden_trigger = {
+			NOT = { has_character_flag = society_join_block }
+		}
+		independent = no
+		higher_real_tier_than = BARON
+	}
+	show_society = {
+		 has_global_flag = flag_restored_congress
+	}
+	
+	potential = {
+		NOT = { trait = incapable }
+		NOT = { has_landed_title = e_usa }
+		NOT = { has_landed_title = d_americanist }
+		independent = no
+	}
+	
+	society_rank = {
+		level = 1
+		limit = 200
+		modifier = {
+			general_opinion = -5
+		}
+		decisions = {
+			propose_legislation # Can put legislation forth
+			propose_tax_legislation # Can put tax legislation forth, if demrep
+		}
+	}
+	
+	society_rank = {
+		level = 2
+		limit = 100
+		modifier = { 
+			diplomacy = 1
+			general_opinion = -5
+		}
+		decisions = {
+			run_for_speaker  # Run to become the Speaker of Congress
+		}
+	}
+	
+	society_rank = {
+		level = 3
+		limit = 50
+		modifier = {
+			diplomacy = 2
+			general_opinion = -5
+		}
+		decisions = {
+			whip_up_support # Convince people to join your party
+		}
+	}
+
+	society_rank = {
+		level = 4
+		limit = 20
+		modifier = { 
+			diplomacy = 3
+			general_opinion = -5
+		}
+		decisions = {
+			evaluate_legislation #Evaluate all the legislation, if you are Speaker
+		}
+	}
+	
+	plots = {
+	}
+	
+	monthly_currency_gain = {
+		name = soc_congress_currency
+		
+		per_attribute = {
+    		name = diplomacy
+    		value = 0.5
+    	}
+		has_trait = {
+			value = 2
+			trait = diligent
+		}
+		has_trait = {
+			value = 1
+			trait = scholar
+		}
+		has_trait = {
+			value = 1
+			trait = grey_eminence
+		}
+		has_trait = {
+			value = 1
+			trait = erudite
+		}
+		has_trait = {
+			value = 1
+			trait = charismatic_negotiator
+		}
+		has_trait = {
+			value = 1
+			trait = underhanded_rogue
+		}
+		has_trait = {
+			value = 2
+			trait = genius
+		}
+		has_trait = {
+			value = 2
+			trait = quick
+		}
+		has_trait = {
+			value = 1
+			trait = shrewd
+		}
+		society_rank = {
+			rank = 2
+			value = 2
+		}
+		society_rank = {
+			rank = 3
+			value = 5
+		}
+		society_rank = {
+			rank = 4
+			value = 10
+		}
+		triggered_gain = {
+			desc = "congress_gain_tier_duke_tooltip"
+			trigger = {
+				tier = duke
+			}
+			value = 3
+		}
+		triggered_gain = {
+			desc = "congress_gain_tier_king_tooltip"
+			trigger = {
+				tier = king
+			}
+			value = 6
+		}
+		
+	}
+	
+	member_score_per_attribute = 3
+	member_score_per_rank = 100
+
+	member_score = {
+		value = 10
+
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 3
+			AND = {
+				any_society_member = {
+					AND = {
+						trait = demrep
+						trait = speaker
+						is_society_grandmaster = yes
+					}	
+				}
+				ROOT = {
+					trait = demrep
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			AND = {
+				any_society_member = {
+					AND = {
+						trait = am_loyalist
+						trait = speaker
+						is_society_grandmaster = yes
+					}
+				}
+				ROOT = {
+					trait = am_loyalist
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 1.5
+			trait = grey_eminence
+		}
+		modifier = {
+			factor = 1.5
+			trait = erudite
+		}
+		modifier = {
+			factor = 1.5
+			trait = charismatic_negotiator
+		}
+		modifier = {
+			factor = 1.5
+			trait = underhanded_rogue
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = genius
+				trait = quick
+				trait = shrewd
+			}
+		}
+	}
+}

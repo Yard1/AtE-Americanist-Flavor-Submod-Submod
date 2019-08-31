@@ -1,0 +1,59 @@
+song = {
+	name = "America the Beautiful.ogg"
+	song_name = "America the Beautiful"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = {
+				culture_group = south_anglo
+				culture_group = west_anglo
+				culture_group = north_atlantic
+				culture_group = rockland
+				culture = american
+				religion = americanist
+			}
+		}
+	}
+}
+
+song = {
+	name = "Marching Through Georgia.ogg"
+	song_name = "Sherman's Hymn"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NAND = {
+				religion = americanist
+				war = yes
+			}
+		}
+	}
+}
+
+song = {
+	name = "Hail to the Chief.ogg"
+	song_name = "President's Hymn"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOR = { { trait = president } }
+	}
+}
+
+song = {
+	name = "Battle Hymn of the Republic.ogg"
+	song_name = "Battle Hymn of the Republic"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NAND = {
+				religion = americanist
+				war = yes
+			}
+		}
+	}
+}

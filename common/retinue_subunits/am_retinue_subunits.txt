@@ -1,0 +1,41 @@
+RETTYPE_CUL_AM_DEL = 
+{
+	first_type = 4
+	first_amount = 150
+	
+	second_type = 6
+	second_amount = 100
+
+	special_troops = horse_archers
+	
+	potential = {
+		is_nomadic = no
+		culture = american
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+		knights_morale = 0.2
+	}
+}
+
+RETTYPE_CUL_AM_SO = 
+{
+	first_type = 4
+	first_amount = 150
+	
+	second_type = 3
+	second_amount = 100
+	
+	potential = {
+		is_nomadic = no
+		culture = american
+	}
+	
+	modifier = {
+		knights_offensive = 0.1
+		knights_defensive = 0.1
+		knights_morale = 0.2
+	}
+}

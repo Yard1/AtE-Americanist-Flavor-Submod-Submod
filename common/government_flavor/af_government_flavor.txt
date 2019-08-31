@@ -1,0 +1,71 @@
+government_flavor = {
+	name = gov_president
+	graphics = GFX_evt_us_seal
+	priority = 1
+	trigger = {
+		has_landed_title = d_americanist
+		mercenary = no
+	}
+}
+
+
+government_flavor = {
+	name = gov_constitutional_republic
+	graphics = GFX_evt_capitol_building
+	priority = 2
+	trigger = {
+		OR = {
+			government = constitutional_rep
+			government = mconstitutional_rep
+		}
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		OR = {
+			NOT = { has_dlc = "Conclave" }
+			calc_true_if = {
+				amount = 6
+				has_law = law_voting_power_1
+				has_law = banish_voting_power_1
+				has_law = execution_voting_power_1
+				has_law = revoke_title_voting_power_1
+				has_law = grant_title_voting_power_1
+				has_law = imprison_voting_power_1
+				has_law = war_voting_power_1
+			}
+		}
+	}
+}
+
+
+government_flavor = {
+	name = gov_dictatorial_republic
+	graphics = GFX_evt_us_seal
+	priority = 2
+	trigger = {
+		OR = {
+			government = constitutional_rep
+			government = mconstitutional_rep
+		}
+		mercenary = no
+		NOR = { 
+			has_law = imperial_administration
+			has_law = ze_administration_laws_2
+		}
+		OR = {
+			NOT = { has_dlc = "Conclave" }
+			calc_true_if = {
+				amount = 6
+				has_law = law_voting_power_0
+				has_law = banish_voting_power_0
+				has_law = execution_voting_power_0
+				has_law = revoke_title_voting_power_0
+				has_law = grant_title_voting_power_0
+				has_law = imprison_voting_power_0
+				has_law = war_voting_power_0
+			}
+		}
+	}
+}

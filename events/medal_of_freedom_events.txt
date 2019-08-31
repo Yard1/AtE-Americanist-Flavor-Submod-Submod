@@ -1,0 +1,18 @@
+namespace = MF
+
+character_event = {
+	id = MF.1
+	desc = EVTDESCMF1
+	picture = GFX_evt_us_seal
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAMF1
+		add_trait = medal_freedom
+		opinion = {
+			modifier = opinion_grateful
+			years = 5
+			who = event_target:mf_giver
+		}
+	}
+}

@@ -1,0 +1,49 @@
+constitutional_rep;Constitutional Republic;;;;;;;;;;;;;x
+constitutional_rep_desc;A system of government based on the United States Constitution, it mixes the feudal systems of antediluvian America with the republican ideals present in the Constitution.;;;;;;;;;;;;;x
+
+mconstitutional_rep;Constitutional Republic;;;;;;;;;;;;;x
+mconstitutional_rep_desc;A system of government based on the United States Constitution, it mixes the republican systems of antediluvian America with the republican ideals present in the Constitution.;;;;;;;;;;;;;x
+
+succ_constitutional_elective;Constitutional Elective;;;;;;;;;;;;;x
+succ_constitutional_elective_desc;The lords of the United States, along with the Federal Cabinet, chooses the next ruler.;;;;;;;;;;;;;x
+constitutional_elective;Constitutional Elective;;;;;;;;;;;;;x
+
+const_baron;Sergeant;;;;;;;;;;;;;x
+const_baron_female;Sergeant;;;;;;;;;;;;;x
+const_barony_of;Municipality of;;;;;;;;;;;;;x
+const_barony;Municipality;;;;;;;;;;;;;x
+const_count;Major;;;;;;;;;;;;;x
+const_count_female;Major;;;;;;;;;;;;;x
+const_duke;Colonel;;;;;;;;;;;;;x
+const_duke_female;Colonel;;;;;;;;;;;;;x
+const_duchy_of;District of;;;;;;;;;;;;;x
+const_duchy;District;;;;;;;;;;;;;x
+const_king;General;;;;;;;;;;;;;x
+const_king_female;General;;;;;;;;;;;;;x
+const_kingdom_of;Commonwealth of;;;;;;;;;;;;;x
+const_kingdom;Commonwealth;;;;;;;;;;;;;x
+const_emperor;Commander-in-Chief;;;;;;;;;;;;;x
+const_emperor_female;Commander-in-Chief;;;;;;;;;;;;;x
+const_empire_of;United States of;;;;;;;;;;;;;x
+
+mconst_baron;Mayor;;;;;;;;;;;;;x
+mconst_baron_female;Mayor;;;;;;;;;;;;;x
+mconst_barony_of;City of;;;;;;;;;;;;;x
+mconst_barony;City;;;;;;;;;;;;;x
+mconst_count;Representative;;;;;;;;;;;;;x
+mconst_count_female;Representative;;;;;;;;;;;;;x
+mconst_duke;Speaker;;;;;;;;;;;;;x
+mconst_duke_female;Speaker;;;;;;;;;;;;;x
+mconst_duchy_of;Republic of;;;;;;;;;;;;;x
+mconst_duchy;Republic of;;;;;;;;;;;;;x
+mconst_king;Senator;;;;;;;;;;;;;x
+mconst_king_female;Senator;;;;;;;;;;;;;x
+mconst_kingdom_of;State of;;;;;;;;;;;;;x
+mconst_kingdom;State;;;;;;;;;;;;;x
+mconst_emperor;Senate President;;;;;;;;;;;;;x
+mconst_emperor_female;Senate President;;;;;;;;;;;;;x
+mconst_empire_of;United States of;;;;;;;;;;;;;x
+
+gov_president;[Root.GetLastWordInDynastyName] Administration;;;;;;;;;;;;;x
+gov_constitutional_republic;Constitutional Republic;;;;;;;;;;;;;x
+gov_dictatorial_republic;Dictatorial Republic;;;;;;;;;;;;;x

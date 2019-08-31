@@ -1,0 +1,668 @@
+namespace = USC
+
+narrative_event = {
+	id = USC.1
+	title = EVTNAMEUSC.1
+	desc = EVTDESCUSC.1
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = virginia }
+		completely_controls = k_old_dominion
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.1
+		set_global_flag = virginia
+		prestige = 500
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.2
+	title = EVTNAMEUSC.2
+	desc = EVTDESCUSC.2
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = pennsylvania }
+		completely_controls = k_allegheny
+		completely_controls = k_deitscherei
+		completely_controls = d_philadelphia
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.2
+		set_global_flag = pennsylvania
+		prestige = 500
+		character_event = { id = USC.14 days = 12 }		
+	}
+}
+
+narrative_event = {
+	id = USC.3
+	title = EVTNAMEUSC.3
+	desc = EVTDESCUSC.3
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = newyork }
+		completely_controls = k_hudsonia
+		completely_controls = d_new_york
+		completely_controls = d_long_island
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.3
+		set_global_flag = newyork
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}	
+
+narrative_event = {
+	id = USC.4
+	title = EVTNAMEUSC.4
+	desc = EVTDESCUSC.4
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = newjersey }
+		completely_controls = d_north_jersey
+		completely_controls = d_jersey
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.4
+		set_global_flag = newjersey
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.5
+	title = EVTNAMEUSC.5
+	desc = EVTDESCUSC.5
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = newengland }
+		completely_controls = k_new_england
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.5
+		set_global_flag = newengland
+		prestige = 500
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.6
+	title = EVTNAMEUSC.6
+	desc = EVTDESCUSC.6
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = carolina }
+		completely_controls = k_carolina
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPTAUSC.6"
+		set_global_flag = carolina
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.7
+	title = EVTNAMEUSC.7
+	desc = EVTDESCUSC.7
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = the_south }
+		completely_controls = k_dixieland
+		completely_controls = k_magnolia
+		completely_controls = k_louisiana
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.7
+		set_global_flag = the_south
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.8
+	title = EVTNAMEUSC.8
+	desc = EVTDESCUSC.8
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = florida }
+		completely_controls = k_florida
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.8
+		set_global_flag = florida
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.9
+	title = EVTNAMEUSC.9
+	desc = EVTDESCUSC.9
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = dakota }
+		completely_controls = k_lakotah
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.9
+		set_global_flag = dakota
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.10
+	title = EVTNAMEUSC.10
+	desc = EVTDESCUSC.10
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = texas }
+		completely_controls = e_lone_star
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.10
+		set_global_flag = texas
+		prestige = 500
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.11
+	title = EVTNAMEUSC.11
+	desc = EVTDESCUSC.11
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = usa_caribbean }
+		completely_controls = k_cuba
+		completely_controls = d_puerto_rico
+		completely_controls = c_virgin_islands
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.11
+		set_global_flag = usa_caribbean
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.12
+	title = EVTNAMEUSC.12
+	desc = EVTDESCUSC.12
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = usa_canada }
+		completely_controls = k_ontario
+		completely_controls = k_quebec
+		completely_controls = k_the_maritimes
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.12
+		set_global_flag = usa_canada
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.17
+	title = EVTNAMEUSC.17
+	desc = EVTDESCUSC.17
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = greatlakes }
+		completely_controls = k_chicagoland
+		completely_controls = k_michigan
+		completely_controls = k_ohio
+		completely_controls = k_superior
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.17
+		set_global_flag = greatlakes
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.18
+	title = EVTNAMEUSC.18
+	desc = EVTDESCUSC.18
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		completely_controls = e_heartland
+		NOT = { has_global_flag = heartland }
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.18
+		set_global_flag = greatlakes
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.19
+	title = EVTNAMEUSC.19
+	desc = EVTDESCUSC.19
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = appalachia }
+		completely_controls = k_appalachia
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.19
+		set_global_flag = appalachia
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.20
+	title = EVTNAMEUSC.20
+	desc = EVTDESCUSC.20
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = rockies }
+		completely_controls = e_the_rockies
+		completely_controls = k_arixo
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.20
+		set_global_flag = rockies
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.21
+	title = EVTNAMEUSC.21
+	desc = EVTDESCUSC.21
+	
+	picture = GFX_evt_manifestdestiny
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		NOT = { has_global_flag = pacifc }
+		completely_controls = k_jefferson
+		completely_controls = k_francisco
+		completely_controls = k_the_valley
+		completely_controls = k_sacramento
+		completely_controls = k_death_valley
+		completely_controls = k_socal
+		completely_controls = k_cascadia
+		completely_controls = k_lincoln
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.21
+		set_global_flag = pacific
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+
+narrative_event = {
+	id = USC.13
+	title = EVTNAMEUSC.13
+	desc = EVTDESCUSC.13
+	
+	picture = GFX_evt_us_seal
+	
+	ai = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		has_landed_title = e_usa
+		
+		has_global_flag = virginia
+		has_global_flag = pennsylvania
+		has_global_flag = newjersey
+		has_global_flag = newyork
+		has_global_flag = newengland
+		has_global_flag = carolina
+		has_global_flag = the_south
+		has_global_flag = florida
+		has_global_flag = dakota
+		has_global_flag = texas
+		has_global_flag = greatlakes
+		has_global_flag = heartland
+		has_global_flag = k_appalachia
+		has_global_flag = rockies
+		has_global_flag = pacifc
+		
+		NOT = { has_global_flag = second_america }
+	}	
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = EVTOPTAUSC.13
+		set_global_flag = second_america
+		prestige = 500	
+		character_event = { id = USC.14 days = 12 }
+	}
+}
+	
+character_event = {
+	id = USC.14
+	desc = EVTDESCUSC.14
+	picture = GFX_evt_victory_arch_byzantine
+	
+	hide_from = yes
+		
+	is_triggered_only = yes
+	
+	trigger = {
+			has_landed_title = e_usa
+	}
+	
+	option = {
+		name = EVTOPTAUSC.14
+		character_event = { id = USC.15 days = 12 tooltip = EVTTOOLTIPUSC.15 }
+		scaled_wealth = -0.3
+		prestige = 75
+	}
+	option = {
+		name = EVTOPTBUSC.14
+		scaled_wealth = -0.1
+		prestige = 25
+	}
+	option = {
+		name = EVTOPTCUSC.14
+		prestige = -30
+	}
+}
+
+# Triumph Held
+character_event = {
+	id = USC.15
+	desc = EVTDESCUSC.15
+	picture = GFX_evt_victory_arch_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAUSC.15
+		custom_tooltip = {
+			text = us_triumph_held
+			hidden_tooltip = {
+				any_realm_lord = {
+					limit = {
+						primary_title = { higher_tier_than = BARON }
+						NOT = { character = ROOT }
+					}
+					opinion = {
+						modifier = opinion_triumph_held
+						who = ROOT
+					}
+					character_event = { id = USC.16 }
+				}
+			}
+		}
+	}
+}
+
+# Triumph Held Vassals
+character_event = {
+	id = USC.16
+	desc = EVTDESCUSC.16
+	picture = GFX_evt_victory_arch_byzantine
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAUSC.16
+	}
+}	
+#character_event = {
+#	id = USC.11
+#	desc = EVTDESCUSC.11
+#	
+#	picture = GFX_evt_inauguration
+#	
+#	trigger = {
+#	    has_landed_title = c_americanist
+#	    has_landed_title = e_usa
+#	    NOT = { 
+#		    has_character_flag = seperatepreschar 
+#			trait = temppres 
+#
+#	    } 
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	option = {
+#		name = EVTOPTAUSC.11
+#		activate_title = { title = c_americanist status = no }
+#		add_trait = tyrant10
+#		piety = -150
+#	}
+#	option = {
+#		name = EVTOPTBUSC.11
+#		set_global_flag = seperatepres
+#		set_character_flag = seperatepreschar
+#		add_trait = zealot
+#		piety = 300
+#    }
+#}
+	
