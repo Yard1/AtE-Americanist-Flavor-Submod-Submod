@@ -1,0 +1,19 @@
+namespace = USSEN
+
+
+# Secret Service Founded (Emperor)
+narrative_event = {
+	id = USSEN.3
+	title = EVTNAME_USSEN_3
+	desc = EVTDESC_USSEN_3100
+	picture = GFX_evt_crusaders
+	border = GFX_event_narrative_frame_war
+	
+	is_triggered_only = yes
+	
+	hide_from = yes
+	
+	option = {
+		name = EVTOPTA_USSEN_3
+	}
+}
