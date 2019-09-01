@@ -15,17 +15,136 @@ decisions = {
 		}
 			
 		effect = {
-			any_title_under = {
+			any_vassal = {
 				limit = {
-					NOT = { tier = EMPEROR }
-					any_direct_de_jure_vassal_title = {
-						if = {
-							limit = { holder_scope = { always = yes } }
-							set_defacto_liege = PREV
+					is_landed = yes
+					tier = KING
+					is_patrician = no
+					NOT = { character = ROOT }
+				}
+				any_demesne_title = {
+					limit = {
+						tier = KING
+					}
+					any_de_jure_vassal = {
+						limit = {
+							tier = DUKE
+							is_patrician = no
+							top_liege = { character = ROOT }
+							NOT = { liege = { character = ROOT } }
+							NOT = { liege = { liege = { character = ROOT } } }
+							NOT = { liege = { character = PREVPREV } }
 						}
-						else = {
-							gain_title = PREV
+						set_defacto_liege = PREVPREV
+						any_demesne_title = {
+							limit = {
+								NOT = { de_jure_liege_or_above = PREVPREVPREV }
+							}
+							dejure_liege_title = {
+								grant_title_no_opinion = PREV
+							}
 						}
+					}
+					any_de_jure_vassal = {
+						limit = {
+							tier = COUNT
+							is_patrician = no
+							top_liege = { character = ROOT }
+							NOT = { liege = { character = ROOT } }
+							NOT = { liege = { liege = { character = ROOT } } }
+							NOT = { liege = { character = PREVPREV } }
+						}
+						set_defacto_liege = PREVPREV
+						any_demesne_title = {
+							limit = {
+								NOT = { de_jure_liege_or_above = PREVPREVPREV }
+							}
+							dejure_liege_title = {
+								grant_title_no_opinion = PREV
+							}
+						}
+					}
+					any_de_jure_vassal_title = {
+						limit = {
+							higher_tier_than = BARON
+							holder_scope = {
+								top_liege = { character = ROOT }
+							}
+							NOT = { 
+								holder_scope = { character = ROOT }
+								holder_scope = { character = PREVPREV }
+								any_liege = { character = PREVPREV }
+							}
+						}
+						gain_title = PREVPREV
+					}
+				}
+				any_vassal = {
+					limit = {
+						is_landed = yes
+						OR = {
+							tier = DUKE
+							tier = COUNT
+						}
+						NOT = { de_jure_liege_or_above = PREV }
+					}
+					set_defacto_liege = ROOT
+				}
+			}
+			any_demesne_title = {
+				limit = {
+					tier = KING
+				}
+				any_de_jure_vassal = {
+					limit = {
+						tier = DUKE
+						is_patrician = no
+						top_liege = { character = ROOT }
+						NOT = { liege = { character = PREVPREV } }
+					}
+					set_defacto_liege = PREVPREV
+					any_demesne_title = {
+						limit = {
+							NOT = { de_jure_liege_or_above = PREVPREVPREV }
+						}
+						dejure_liege_title = {
+							if = {
+								limit = { owner = { character = ROOT } }
+								grant_title_no_opinion = PREV
+							}
+						}
+					}
+				}
+				any_de_jure_vassal = {
+					limit = {
+						tier = COUNT
+						is_patrician = no
+						top_liege = { character = ROOT }
+						NOT = { liege = { character = PREVPREV } }
+					}
+					set_defacto_liege = PREVPREV
+					any_demesne_title = {
+						limit = {
+							NOT = { de_jure_liege_or_above = PREVPREVPREV }
+						}
+						dejure_liege_title = {
+							if = {
+								limit = { owner = { character = ROOT } }
+								grant_title_no_opinion = PREV
+							}
+						}
+					}
+				}
+				any_de_jure_vassal_title = {
+					limit = {
+						higher_tier_than = BARON
+						holder_scope = {
+							top_liege = { character = ROOT }
+						}
+						NOT = {
+							owner = { character = ROOT }
+						}
+						gain_title = ROOT
 					}
 				}
 			}

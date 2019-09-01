@@ -6,7 +6,7 @@ EVTOPTABSP3;President [prez_pat.GetFirstNameWithNick] has scorned the presidency
 refuse_patriot;Proclaim President [prez_pat.GetFirstNameWithNick] an Agent of Agenda 21;;;;;;;;;;;;;x
 
 EVTNAMEAPS4;President Made a Patriot!;;;;;;;;;;;;;x
-EVTDESCAPS4;[From.GetBestName] Has issued an executive order officially making President [prez_pat.GetFirstNameWithNick] a Patriot who sits among our Founding Fathers. The executive order states that due to President [prez_pat.GetOnlyDynastyName]'s righteousness in the face of [Root.Religion.GetRandomEvilGodName] and other threats foreign and domestic, [prez_pat.GetSheHe] has proven [prez_pat.GetHerselfHimself] to be Washington-sent.;;;;;;;;;;;;;x
+EVTDESCAPS4;[From.GetBestName] has issued an executive order officially making President [prez_pat.GetFirstNameWithNick] a Patriot who sits among our Founding Fathers. The executive order states that due to President [prez_pat.GetOnlyDynastyName]'s righteousness in the face of [Root.Religion.GetRandomEvilGodName] and other threats foreign and domestic, [prez_pat.GetSheHe] has proven [prez_pat.GetHerselfHimself] to be Washington-sent.;;;;;;;;;;;;;x
 EVTOPTAAPS4;May [Root.Religion.GetRandomGodName] guide [prez_pat.GetHerHis] hand!;;;;;;;;;;;;;x
 
 EVTNAMEAPS5;Unpatriotic President made Patriot;;;;;;;;;;;;;x

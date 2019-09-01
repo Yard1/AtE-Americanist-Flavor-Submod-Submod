@@ -82,12 +82,15 @@ decisions = {
 		allow = {
 			prisoner = no
 			is_inaccessible_trigger = no
-			scaled_wealth = 0.25
-			had_character_flag = { flag = call_to_congress days = 365 }
+			wealth = 100
+			OR = {
+				had_character_flag = { flag = call_to_congress days = 365 }
+				NOT = { has_character_flag = call_to_congress }
+			}
 		}
 		
 		effect = {
-			scaled_wealth = -0.25
+			wealth = -100
 			custom_tooltip = {
 				name = call_to_congress_TT
 				hidden_tooltip = {
@@ -345,10 +348,7 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			ai = no
-			OR = {
-				society_member_of = soc_congress
-				has_landed_title = e_usa
-			}
+			society_member_of = soc_congress
 			has_global_flag = speaker_election
 		}
 		allow = {
@@ -581,12 +581,22 @@ decisions = {
 		is_high_prio = yes
 		potential = {
 			ai = no
-			society_member_of = soc_congress
+			OR = {
+				society_member_of = soc_congress
+				AND = {
+					has_landed_title = e_usa
+					has_global_flag = flag_restored_congress
+					soc_congress = {
+						society_has_members = yes
+					}
+				}
+			}
 		}
 		allow = {
 			OR = {
 				trait = demrep
 				trait = am_loyalist
+				has_landed_title = e_usa
 			}
 			wealth = 5
 		}

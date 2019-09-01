@@ -1,0 +1,7 @@
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder = {
+	events = {
+		USSEN.1 #Carry over senator title to new ruler
+		USSEN.2 #Give president title to the ruler of USA
+	}
+}

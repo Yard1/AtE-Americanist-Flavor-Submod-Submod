@@ -1,5 +1,929 @@
 namespace = USSEN
 
+#Carry over senator title to new ruler
+character_event = {
+	id = USSEN.1
+	desc = DEBUG
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		has_dlc = "Zeus"
+		top_liege = {
+			is_feudal = yes
+			has_landed_title = e_usa
+			has_law = senate_laws_1
+		}
+		FROM = { has_title_flag = e_usa_senator_title }
+		is_voter = no
+		independent = no
+	}
+	
+	immediate = {
+        if = {
+            limit = { FROM = { title = k_new_york } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_new_york
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_new_england } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_new_england
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_hudsonia } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_hudsonia
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_deitscherei } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_deitscherei
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_allegheny } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_allegheny
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_ohio } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_ohio
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_old_dominion } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_old_dominion
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_carolina } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_carolina
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_dixieland } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_dixieland
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_florida } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_florida
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_louisiana } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_louisiana
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_appalachia } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_appalachia
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_michigan } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_michigan
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_uppland } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_uppland
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_magnolia } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_magnolia
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_chicagoland } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_chicagoland
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_iowa } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_iowa
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_missouri } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_missouri
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_ozarks } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_ozarks
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_jacinto } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_jacinto
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_rio_grande } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_rio_grande
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_comancheria } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_comancheria
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_platte } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_platte
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_colorado } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_colorado
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_yellowstone } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_yellowstone
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_arixo } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_arixo
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_deseret } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_deseret
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_idaho } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_idaho
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_death_valley } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_death_valley
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_socal } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_socal
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_the_valley } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_the_valley
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_francisco } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_francisco
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_jefferson } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_jefferson
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_cascadia } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_cascadia
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+
+        else_if = {
+            limit = { FROM = { title = k_lincoln } }
+            if = {
+                limit = { 
+                    liege = { character = ROOT }
+                    OR = {
+                        has_minor_title = title_councilmember_emperor
+                        has_minor_title = title_councilmember_king
+                    }
+                }
+                liege = {
+                    set_character_flag = swapping_councillors
+                }
+                remove_title = title_councilmember_emperor
+                remove_title = title_councilmember_king
+            }
+            if = {
+                limit = { is_voter = no }
+                give_minor_title = title_senator_k_lincoln
+            }
+            liege = {
+                clr_character_flag = swapping_councillors
+            }
+        }
+	}
+	
+	option = {
+		name = DEBUG
+	}
+}
+
+#Give president title to the ruler of e_usa
+character_event = {
+	id = USSEN.2
+	desc = DEBUG
+	is_triggered_only = yes
+	hide_window = yes
+	
+	trigger = {
+		has_landed_title = e_usa
+		NOT = { has_landed_title = d_americanist }
+	}
+	
+	immediate = {
+		d_americanist = { grant_title = ROOT }
+		add_trait = president
+		k_papal_state = { holder_scope = { character_event = { id = prez.98 } } }
+		narrative_event = { id = prez.301 }
+	}
+	
+	option = {
+		name = DEBUG
+	}
+}
 
 # Secret Service Founded (Emperor)
 narrative_event = {

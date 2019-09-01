@@ -8,7 +8,7 @@ soc_congress_leader_desc;The Speaker of Congress, the overseer of all Congressio
 soc_congress_rank_1_female;Congresswoman;;;;;;;;;;;;;x
 soc_congress_rank_2_female;Chairwoman;;;;;;;;;;;;;x
 soc_congress_rank_3_female;Whip;;;;;;;;;;;;;x
-soc_congress_rank_4_female;Caucus Leader;;;;;;;;;;;;;x
+soc_congress_rank_4_female;Party Leader;;;;;;;;;;;;;x
 soc_congress_rank_1_male;Congressman;;;;;;;;;;;;;x
 soc_congress_rank_2_male;Chairman;;;;;;;;;;;;;x
 soc_congress_rank_3_male;Whip;;;;;;;;;;;;;x

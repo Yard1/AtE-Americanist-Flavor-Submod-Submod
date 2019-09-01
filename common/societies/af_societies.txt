@@ -4,6 +4,7 @@ soc_congress = {
 	opinion_per_rank_above = +5
 	sound = warrior_lodge_ambient_01
 	society_influence = no
+	is_secret = no
 	
 	non_interference = {
 		always = yes
@@ -37,6 +38,8 @@ soc_congress = {
 		}
 		independent = no
 		higher_real_tier_than = BARON
+		prisoner = no
+		age = 16
 	}
 	show_society = {
 		 has_global_flag = flag_restored_congress
@@ -47,6 +50,8 @@ soc_congress = {
 		NOT = { has_landed_title = e_usa }
 		NOT = { has_landed_title = d_americanist }
 		independent = no
+		prisoner = no
+		age = 16
 	}
 	
 	society_rank = {

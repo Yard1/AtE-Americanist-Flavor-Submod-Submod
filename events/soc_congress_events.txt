@@ -1248,6 +1248,7 @@ narrative_event = {
 		add_trait = speaker
 		society_rank_up = 3
 		set_society_grandmaster = yes
+		give_minor_title = title_speaker_voter
 		set_character_flag = current_speaker
 		clr_character_flag = speaker_candidate
 		if = {
@@ -2878,9 +2879,9 @@ narrative_event = {
 					}
 					set_government_type = constitutional_rep
 					primary_title = {
-						e_usa = {
-							add_law = succ_constitutional_elective
-						}
+						#e_usa = {
+						#	add_law = succ_constitutional_elective
+						#}
 					}
 				}
 				if = {
@@ -2904,9 +2905,13 @@ narrative_event = {
 						add_law = status_of_women_4
 						add_law = vassal_wars_law_2
 						add_law = out_of_realm_inheritance_law_1
+						revoke_law = senate_laws_0
+						add_law = senate_laws_1
+						add_law = succ_presidential_senatorial_elective
 						gender_succ = true_cognatic
 					}
 				}
+				create_senate_titles = yes
 			}
 		}
 	}

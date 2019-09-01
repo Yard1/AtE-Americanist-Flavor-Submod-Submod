@@ -1,0 +1,65 @@
+law_groups = {
+	senate_laws = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+	de_jure_states = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+	state_succession = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+}
+
+de_jure_laws = {
+	senate_laws_0 = {
+		group = senate_laws
+		allow = {
+			has_law = law_voting_power_1
+			has_law = senate_laws_1
+		}
+		potential = {
+			has_dlc = "Zeus"
+			tier = EMPEROR
+			title = e_usa
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			
+		}
+		
+		vassal_limit = 2
+		feudal_opinion = +5
+	}
+
+	senate_laws_1 = {
+		group = senate_laws
+		default = yes
+		allow = {
+			has_law = law_voting_power_1
+			has_law = senate_laws_0
+		}
+		potential = {
+			has_dlc = "Zeus"
+			tier = EMPEROR
+			title = e_usa
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			
+		}
+		
+		vassal_limit = 2
+		feudal_opinion = +5
+	}
+}

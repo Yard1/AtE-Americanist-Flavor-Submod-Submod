@@ -1,0 +1,111 @@
+# DO NOT ALTER THE NAME OR NUMBER OF THESE!
+
+succession_laws = {
+	succ_presidential_elective = {
+		oldest_child_opinion = -15
+		child_opinion = -5
+		dynasty_opinion = -5
+		vassal_opinion = 15
+		potential = {
+			title = e_usa
+			holder_scope = {
+				NOT = { religion_group = pagan_group }
+				is_nomadic = no
+				is_merchant_republic = no
+				is_patrician = no
+			}
+			NOT = { holder_scope = { government = military_governorate } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = e_presidential_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+
+	succ_presidential_senatorial_elective = {
+		oldest_child_opinion = -15
+		child_opinion = -5
+		dynasty_opinion = -5
+		vassal_opinion = 10
+		potential = {
+			title = e_usa
+			holder_scope = {
+				NOT = { religion_group = pagan_group }
+				is_nomadic = no
+				is_merchant_republic = no
+				is_patrician = no
+			}
+			NOT = { holder_scope = { government = military_governorate } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = presidential_senatorial_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+
+	succ_presidential_electoral_college_elective = {
+		oldest_child_opinion = -15
+		child_opinion = -5
+		dynasty_opinion = -5
+		vassal_opinion = 10
+		potential = {
+			title = e_usa
+			holder_scope = {
+				NOT = { religion_group = pagan_group }
+				is_nomadic = no
+				is_merchant_republic = no
+				is_patrician = no
+			}
+			NOT = { holder_scope = { government = military_governorate } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = presidential_electoral_college_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+	}
+}

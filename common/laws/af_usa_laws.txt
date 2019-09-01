@@ -1,0 +1,105 @@
+law_groups = {
+	noble_council = {
+		law_type = council
+		allowed_for_councillors = yes
+	}
+}
+
+laws = {
+	noble_council_0 = {
+		group = senate_laws
+		allow = {
+			has_law = law_voting_power_1
+			has_law = noble_council_1
+		}
+		potential = {
+			has_dlc = "Zeus"
+			higher_tier_than = duke
+			is_feudal = yes
+			OR = {
+				NOT = { holder_scope = { is_tribal = yes } }
+				has_law = tribal_organization_1
+				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			
+		}
+		
+		vassal_limit = 2
+		feudal_opinion = +5
+	}
+
+	noble_council_1 = {
+		group = senate_laws
+		default = yes
+		allow = {
+			has_law = law_voting_power_1
+			OR = {
+				has_law = noble_council_0
+				has_law = noble_council_2
+			}
+		}
+		potential = {
+			has_dlc = "Zeus"
+			higher_tier_than = duke
+			is_feudal = yes
+			OR = {
+				NOT = { holder_scope = { is_tribal = yes } }
+				has_law = tribal_organization_1
+				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			
+		}
+
+		feudal_opinion = +2
+	}
+
+	noble_council_2 = {
+		group = senate_laws
+		default = yes
+		allow = {
+			has_law = law_voting_power_1
+			has_law = noble_council_1
+		}
+		potential = {
+			has_dlc = "Zeus"
+			higher_tier_than = duke
+			is_feudal = yes
+			OR = {
+				NOT = { holder_scope = { is_tribal = yes } }
+				has_law = tribal_organization_1
+				has_law	= tribal_organization_2
+				has_law	= tribal_organization_3
+				has_law = tribal_organization_4
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			
+		}
+
+		feudal_opinion = +5
+		town_opinion = -5
+	}
+}

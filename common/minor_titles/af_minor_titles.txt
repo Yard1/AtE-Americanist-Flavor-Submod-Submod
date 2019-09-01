@@ -1,0 +1,2170 @@
+
+title_senator_k_new_york = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_new_york = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_new_york
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_new_york
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_new_england = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_new_england = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_new_england
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_new_england
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_hudsonia = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_hudsonia = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_hudsonia
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_hudsonia
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_deitscherei = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_deitscherei = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_deitscherei
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_deitscherei
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_allegheny = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_allegheny = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_allegheny
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_allegheny
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_ohio = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_ohio = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_ohio
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_ohio
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_old_dominion = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_old_dominion = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_old_dominion
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_old_dominion
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_carolina = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_carolina = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_carolina
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_carolina
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_dixieland = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_dixieland = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_dixieland
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_dixieland
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_florida = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_florida = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_florida
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_florida
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_louisiana = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_louisiana = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_louisiana
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_louisiana
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_appalachia = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_appalachia = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_appalachia
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_appalachia
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_michigan = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_michigan = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_michigan
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_michigan
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_uppland = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_uppland = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_uppland
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_uppland
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_magnolia = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_magnolia = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_magnolia
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_magnolia
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_chicagoland = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_chicagoland = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_chicagoland
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_chicagoland
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_iowa = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_iowa = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_iowa
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_iowa
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_missouri = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_missouri = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_missouri
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_missouri
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_ozarks = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_ozarks = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_ozarks
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_ozarks
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_jacinto = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_jacinto = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_jacinto
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_jacinto
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_rio_grande = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_rio_grande = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_rio_grande
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_rio_grande
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_comancheria = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_comancheria = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_comancheria
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_comancheria
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_platte = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_platte = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_platte
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_platte
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_colorado = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_colorado = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_colorado
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_colorado
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_yellowstone = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_yellowstone = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_yellowstone
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_yellowstone
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_arixo = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_arixo = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_arixo
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_arixo
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_deseret = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_deseret = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_deseret
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_deseret
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_idaho = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_idaho = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_idaho
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_idaho
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_death_valley = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_death_valley = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_death_valley
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_death_valley
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_socal = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_socal = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_socal
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_socal
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_the_valley = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_the_valley = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_the_valley
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_the_valley
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_francisco = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_francisco = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_francisco
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_francisco
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_jefferson = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_jefferson = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_jefferson
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_jefferson
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_cascadia = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_cascadia = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_cascadia
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_cascadia
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
+
+title_senator_k_lincoln = {
+	is_high_prio = yes
+	dignity = 0.020
+	grant_limit = 1
+	is_voter = yes
+	
+	allowed_to_grant = {
+		has_dlc = "Zeus"
+		is_feudal = yes
+		has_landed_title = e_usa
+		OR = {
+			religion_group = christian
+			religion_group = jewish_group
+			religion_group = oldworld
+			religion_group = pagan_group
+		}
+		has_law = senate_laws_1
+		k_lincoln = {
+			holder_scope = {
+				primary_title = {
+					temporary = no
+					title = k_lincoln
+				} 
+				independent = no
+				top_liege = { character = ROOT }
+				is_feudal = yes
+				is_voter = no
+			}
+		}
+	}
+	
+	allowed_to_hold = {
+		primary_title = {
+			temporary = no
+			title = k_lincoln
+		} 
+		is_voter = no
+		independent = no
+		is_feudal = yes
+	}
+
+	revoke_trigger = {
+		always = no
+	}
+	
+	gain_effect = {
+		set_character_flag = us_senator
+	}
+	lose_effect = {
+		clr_character_flag = us_senator
+	}
+	death_effect = {
+		clr_character_flag = us_senator
+	}
+	retire_effect = {
+		clr_character_flag = us_senator
+	}
+
+	message = yes
+}
+    
