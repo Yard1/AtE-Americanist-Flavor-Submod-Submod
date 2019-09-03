@@ -86,6 +86,23 @@ zealot_pattern_for = {
 	
 	law_voting_power_0 = { always = no }
 	law_voting_power_1 = { always = yes }
+	senate_laws_0 = { always = no }
+	senate_laws_1 = { always = yes }
+	state_succession_0 = {
+		OR = {
+			AND = {
+				religion = americanist
+				OR = { trait = just trait = zealous }
+			}
+			NOT = { tier = KING }
+		}
+	}
+	state_succession_1 = {
+		always = yes
+	}
+	state_succession_2 = {
+		always = no
+	}
 	banish_voting_power_0 = { always = no }
 	banish_voting_power_1 = { always = yes }
 	execution_voting_power_0 = { always = no }
@@ -547,6 +564,21 @@ zealot_pattern_against = {
 	
 	law_voting_power_0 = { always = yes }
 	law_voting_power_1 = { always = no }
+	senate_laws_0 = { always = yes }
+	senate_laws_1 = { always = no }
+	state_succession_0 = {
+		tier = KING
+		NAND = {
+			religion = americanist
+			OR = { trait = just trait = zealous }
+		}
+	}
+	state_succession_1 = {
+		always = no
+	}
+	state_succession_2 = {
+		is_feudal = yes
+	}
 	banish_voting_power_0 = { always = yes }
 	banish_voting_power_1 = { always = no }
 	execution_voting_power_0 = { always = yes }

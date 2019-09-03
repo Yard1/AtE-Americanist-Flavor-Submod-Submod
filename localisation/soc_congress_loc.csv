@@ -9,6 +9,7 @@ soc_congress_rank_1_female;Congresswoman;;;;;;;;;;;;;x
 soc_congress_rank_2_female;Chairwoman;;;;;;;;;;;;;x
 soc_congress_rank_3_female;Whip;;;;;;;;;;;;;x
 soc_congress_rank_4_female;Party Leader;;;;;;;;;;;;;x
+
 soc_congress_rank_1_male;Congressman;;;;;;;;;;;;;x
 soc_congress_rank_2_male;Chairman;;;;;;;;;;;;;x
 soc_congress_rank_3_male;Whip;;;;;;;;;;;;;x
@@ -16,14 +17,16 @@ soc_congress_rank_4_male;Party Leader;;;;;;;;;;;;;x
 
 soc_congress_currency;Political Influence;;;;;;;;;;;;;x
 request_to_rank_up_within_soc_congress;Request assignment.;;;;;;;;;;;;;x
-request_to_rank_up_within_soc_congress_tt;Has [Root.Society.GetCurrency]§! greater or equal to [Root.GetSocietyRankUpTooltip1];;;;;;;;;;;;;x
+request_to_rank_up_within_soc_congress_tt;Has [Root.Society.GetCurrency]Â§! greater or equal to [Root.GetSocietyRankUpTooltip1];;;;;;;;;;;;;x
 congress_gain_tier_duke_tooltip;Is a Duke;;;;;;;;;;;;;x
 congress_gain_tier_king_tooltip;Is a King;;;;;;;;;;;;;x
 
 SPEAKER_TITLE;Speaker;;;;;;;;;;;;;x
 SPEAKER_TITLE_FEMALE;Speaker;;;;;;;;;;;;;x
 
-propose_legislation_power_desc;Propose a piece of legislation to further your and your party's goals.;;;;;;;;;;;;;x 
+propose_legislation_power_desc;Propose a piece of constitutional legislation to further your and your party's goals.;;;;;;;;;;;;;x 
+
+propose_legislation_b_power_desc;Propose a piece of legislation to further your and your party's goals.;;;;;;;;;;;;;x 
 
 propose_tax_legislation_power_desc;As a member of the Democrepublican Party, it is your duty to uphold both the Constitution and the Edicts of Washington. Lately, however, both documents have been violated by unequal demands of tax and levies from the lords, patricians, and clergy of America. As a remedy, you may put forth legislation to readjust the tax and levy laws.;;;;;;;;;;;;;x
 
@@ -96,12 +99,12 @@ speaker;Speaker;;;;;;;;;;;;;x
 speaker_desc;This character is the Speaker of Congress, an incredibly important position within the new American government.;;;;;;;;;;;;;x
 
 EVTDESCSC5;Now that Congress has been convened, I must send an order to the new Congresspeople that a Speaker must be elected among them.;;;;;;;;;;;;;x
-EVTOPTASC5;I must send my fastest messanger;;;;;;;;;;;;;x
+EVTOPTASC5;I must send my fastest messenger;;;;;;;;;;;;;x
 
 first_speaker_election;The Speakership is vacant, and a new Speaker must be elected to lead Congress.;;;;;;;;;;;;;x
 speaker_dead;Speaker [From.GetFullName] has passed on, and a new Speaker must be elected to lead Congress.;;;;;;;;;;;;;x
 EVTOPTASC6;May [Root.Religion.Religion.GetRandomGodName] bless Congress;;;;;;;;;;;;;x
-evtsc6_TT;You will have one month to declare your candidacy (use the "Run for Speaker" decision);;;;;;;;;;;;;x
+evtsc6_TT;Members of Congress will have one month to declare their candidacy (use the "Run for Speaker" decision);;;;;;;;;;;;;x
 
 EVTDESCSC7;[From.GetFullName] has declared [From.GetHerHis] candidacy for the Speakership.;;;;;;;;;;;;;x
 EVTOPTASC7;May the best candidate win;;;;;;;;;;;;;x
@@ -156,7 +159,7 @@ EVTOPTASC33;I hope [Root.Society.GrandMaster.GetSheHe] takes action against this
 EVTDESCSC34;I have finally finished writing my new tax and levy bill, and now it is ready to send to the Speaker.;;;;;;;;;;;;;x
 EVTOPTASC34;May the Speaker hear my pleas.;;;;;;;;;;;;;x
 
-EVTDESCSC35;A messanger has delivered a bill to my desk. As Speaker of Congress, it is my duty to curate what is and is not on the Congressional Floor.;;;;;;;;;;;;;x
+EVTDESCSC35;A messenger has delivered a bill to my desk. As Speaker of Congress, it is my duty to curate what is and is not on the Congressional Floor.;;;;;;;;;;;;;x
 EVTOPTASC35;This bill is well-written enough, let it pass.;;;;;;;;;;;;;x
 speaker_assent_TT;The bill shall be voted on in one month;;;;;;;;;;;;;x
 EVTOPTBSC35;This bill is unacceptable!;;;;;;;;;;;;;x
@@ -165,9 +168,31 @@ speaker_no;Send a message to Congress[From.GetManWoman] [From.GetFullName], deny
 EVTDESCSC36;Speaker [From.GetFullName] has denied my bill a chance to be voted upon!;;;;;;;;;;;;;x
 EVTOPTASC36;[Root.Religion.GetRandomGodName] damn him!;;;;;;;;;;;;;x
 
-#Other legislation
-propose_legislation;Propose Legislation;;;;;;;;;;;;;x 
-propose_legislation_desc;Propose a piece of legislation to further your and your party's goals.;;;;;;;;;;;;;x 
+#Propose Legislation
+propose_legislation_b;Propose Legislation;;;;;;;;;;;;;x
+propose_legislation_b_desc;Propose legislation to further your and your party's goals.;;;;;;;;;;;;;x
+
+EVTDESCSC63;Now that I am set on delivering a bill to the Speaker, what sort of bill shall I send [Root.Society.GrandMaster.GetHerHim]?;;;;;;;;;;;;;x
+EVTOPTASC63;America's military needs sprucing up.;;;;;;;;;;;;;x
+EVTOPTBSC63;This nation's infrastructure requires improvement.;;;;;;;;;;;;;x
+EVTOPTCSC63;The cultural feats of our countrymen are being ignored.;;;;;;;;;;;;;x
+EVTOPTDSC63;Rebels have been let free amongst our ranks.;;;;;;;;;;;;;x
+
+mod_leg_mil;Increased Military Budget;;;;;;;;;;;;;x
+mod_leg_mil_desc;America's defense budgets has been temporarily increased by Congress, raising the quality of American forces.;;;;;;;;;;;;;x
+
+mod_leg_inf;Increased Infrastructure Budget;;;;;;;;;;;;;x
+mod_leg_inf_desc;America's infrastructure budget has been temporarily increased by Congress, lowering the cost and time of building projects.;;;;;;;;;;;;;x
+
+mod_leg_cul;Increased Cultural Grant Budget;;;;;;;;;;;;;x
+mod_leg_cul_desc;America's cultural grants has been temporarily increased by Congress, giving prestige to lords whose subjects create masterful pieces of art.;;;;;;;;;;;;;x
+
+mod_leg_esp;Increased Espionage Powers;;;;;;;;;;;;;x
+mod_leg_esp_desc;The ability of American lords to spy and crack down on rebellion has been increased by Congress temporarily.;;;;;;;;;;;;;x
+
+#Constitutional Legislation
+propose_legislation;Propose Constitutional Legislation;;;;;;;;;;;;;x 
+propose_legislation_desc;Propose a piece of constitutional legislation to further your and your party's goals.;;;;;;;;;;;;;x 
 speaker_available;The Speaker is currently available.;;;;;;;;;;;;;x 
 
 demrep_leg_TT;[Root.TopLiege.GetTitle] [Root.TopLiege.GetFullName] has overstepped the boundaries of the Edicts of Washington and the Constitution, forcing my hand towards the legislative process. I shall send [Root.Society.GetTitledGrandMasterName] my bill once it is finished.;;;;;;;;;;;;;x
@@ -177,7 +202,7 @@ EVTOPTBSC37;I shall do my best to cast off these Congressional shackles.;;;;;;;;
 
 EVTDESCSC38;Now that I am set on delivering a bill to the Speaker, what sort of bill shall I send [Root.Society.GrandMaster.GetHerHim]?;;;;;;;;;;;;;x
 EVTOPTASC38;The [Root.TopLiege.GetTitle]'s war powers need to be reevaluated.;;;;;;;;;;;;;x
-EVTOPTBSC38;The [Root.TopLiege.GetTitle]'s Cabinet need some readjusting.;;;;;;;;;;;;;x
+EVTOPTBSC38;The [Root.TopLiege.GetTitle]'s State Succession need some readjusting.;;;;;;;;;;;;;x
 EVTOPTCSC38;The [Root.TopLiege.GetTitle]'s powers of punishment need to be looked into.;;;;;;;;;;;;;x
 EVTOPTDSC38;The [Root.TopLiege.GetTitle]'s ability to administer titles requires changing.;;;;;;;;;;;;;x
 
@@ -190,18 +215,26 @@ neg_pt_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a 
 pos_pt_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing the [Root.TopLiege.GetTitle]'s punishment powers will be put on the Floor next month.;;;;;;;;;;;;;x
 neg_te_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill decreasing the [Root.TopLiege.GetTitle]'s title allocation powers will be put on the Floor next month.;;;;;;;;;;;;;x
 pos_te_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing the [Root.TopLiege.GetTitle]'s title allocation powers will be put on the Floor next month.;;;;;;;;;;;;;x
-EVTOPTASC39;May [Root.Religion.GetRandomGodName] guide my vote.;;;;;;;;;;;;;x
+leg_mil_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing the budget of the military will be put on the Floor next month.;;;;;;;;;;;;;x
+leg_inf_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing the infrastructure budget will be put on the Floor next month.;;;;;;;;;;;;;x
+leg_cul_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing cultural grants will be put on the Floor next month.;;;;;;;;;;;;;x
+leg_esp_TT;Speaker [From.GetFullName] has announced to all Congresspeople that a bill increasing espionage powers will be put on the Floor next month.;;;;;;;;;;;;;x
+EVTOPTASC39;May [Root.Religion.GetRandomGodName] guide Congress.;;;;;;;;;;;;;x
 legislation_TT;The resolution will be voted on within the next thirty days.;;;;;;;;;;;;;x
 
 neg_tax_TT_v;"The question is on the adoption of the following resolution: Readjustment of American Vassal Tax and Levy Obligations. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
 neg_war_TT_v;"The question is on the adoption of the following resolution: Decreasing Executive War Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
 pos_war_TT_v;"The question is on the adoption of the following resolution: Increasing Executive War Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
-neg_vp_TT_v;"The question is on the adoption of the following resolution: Increasing Cabinet Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
-pos_vp_TT_v;"The question is on the adoption of the following resolution: Decreasing Cabinet Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+neg_vp_TT_v;"The question is on the adoption of the following resolution: Democratizing State Succession. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+pos_vp_TT_v;"The question is on the adoption of the following resolution: Centralizing State Succession. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
 neg_pt_TT_v;"The question is on the adoption of the following resolution: Decreasing Executive Punishment Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
 pos_pt_TT_v;"The question is on the adoption of the following resolution: Increasing Executive Punishment Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
 neg_te_TT_v;"The question is on the adoption of the following resolution: Decreasing Executive Title Allocation Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
 pos_te_TT_v;"The question is on the adoption of the following resolution: Increasing Executive Title Allocation Power. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+leg_mil_TT_v;"The question is on the adoption of the following resolution: Increasing Defense Budget. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+leg_inf_TT_v;"The question is on the adoption of the following resolution: Increasing Infrastructure Budget. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+leg_cul_TT_v;"The question is on the adoption of the following resolution: Increasing Cultural Grants Budget. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
+leg_esp_TT_v;"The question is on the adoption of the following resolution: Increasing American Espionage Powers. Those in favor of adopting the resolution, say aye... Those opposed, say no...";;;;;;;;;;;;;x
 EVTOPTASC42;Aye;;;;;;;;;;;;;x
 cast_yes_TT;Cast a yes vote for this resolution;;;;;;;;;;;;;x
 EVTOPTBSC42;No;;;;;;;;;;;;;x
@@ -231,7 +264,7 @@ speaker_loyal;The Speaker is a Loyalist;;;;;;;;;;;;;x
 con_support_TT;Congress has given back authority to the [Root.GetTitle].;;;;;;;;;;;;;x
 
 EVTNAMESC50;Edicts of Washington;;;;;;;;;;;;;x
-EVTDESCSC50;While I was in the middle of important administration work, a messanger delivered a letter, signed by "The Lords of America". My vassals have collectively demanded that I follow both the Constitution and their own contract, the Edicts of Washington. With the entire realm united behind this cause, I find it necessary to bend the knee, just this once.;;;;;;;;;;;;;x
+EVTDESCSC50;While I was in the middle of important administration work, a messenger delivered a letter, signed by "The Lords of America". My vassals have collectively demanded that I follow both the Constitution and their own contract, the Edicts of Washington. With the entire realm united behind this cause, I find it necessary to bend the knee, just this once.;;;;;;;;;;;;;x
 EVTOPTASC50;I swear to [Root.Religion.GetRandomGodName] that I will wring each and every traitor's neck!;;;;;;;;;;;;;x
 edict_TT;Accept the terms of their demands, and change your laws accordingly.;;;;;;;;;;;;;x
 
@@ -270,7 +303,7 @@ EVTDESCSC57;Since this is your census, you should probably vote too.;;;;;;;;;;;;
 EVTOPTASC57;Democrepublican, obviously;;;;;;;;;;;;;x
 EVTOPTBSC57;Loyalist, obviously;;;;;;;;;;;;;x
 
-EVTDESCSC58;The census results are as follows:\n\nDemocrepublicans: [FromFrom.demrep_v.GetValue]\n\nLoyalists: [FromFrom.aml_v.GetValue];;;;;;;;;;;;;x
+EVTDESCSC58;The census results are as follows:\n\nDemocrepublicans: [p_taker.demrep_v.GetValue]\n\nLoyalists: [p_taker.aml_v.GetValue];;;;;;;;;;;;;x
 EVTOPTASC58;OK;;;;;;;;;;;;;x
 
 #Hereditary Presidency

@@ -420,8 +420,13 @@ decisions = {
 				text = can_vote_TT
 				hidden_tooltip = {
 					OR = {
-						had_global_flag = { flag = leg_to_vote days = 365 }
-						has_global_flag = first_leg
+						had_global_flag = { flag = bill_pass days = 365 }
+						NOT = {
+							has_global_flag = bill_pass
+						}
+					}
+					NOT = {
+						has_global_flag = bill_sent
 					}
 				}
 			}
@@ -430,17 +435,65 @@ decisions = {
 			character_event = { id = SC.33 }
 			change_society_currency = -50
 			hidden_tooltip = {
-				clr_global_flag = leg_to_vote
-				set_global_flag = leg_to_vote
-				
-				clr_global_flag = first_leg
-				
+				clr_global_flag = bill_pass
+				set_global_flag = bill_sent
+								
 				set_character_flag = legislation
 			}
 		}
 		revoke_allowed = { always = no }
 		ai_will_do = { 
 			factor = 1
+		}
+	}
+	
+	propose_legislation_b = {
+		is_high_prio = yes
+		potential = {
+			society_member_of = soc_congress
+			NOT = {
+				has_global_flag = speaker_election
+				has_character_flag = legislation
+			}
+		}
+		allow = {
+			society_currency = 50
+			custom_tooltip = {
+				text = speaker_available
+				hidden_tooltip = {
+					speaker = {
+						is_inaccessible_trigger = no
+					}
+				}
+			}
+			custom_tooltip = {
+				text = can_vote_TT
+				hidden_tooltip = {
+					OR = {
+						had_global_flag = { flag = bill_pass days = 365 }
+						NOT = {
+							has_global_flag = bill_pass
+						}
+					}
+					NOT = {
+						has_global_flag = bill_sent
+					}
+				}
+			}
+		}
+		effect = {
+			change_society_currency = -50
+			character_event = { id = SC.63 }
+			hidden_tooltip = {
+				clr_global_flag = bill_pass
+				set_global_flag = bill_sent
+								
+				set_character_flag = legislation
+			}
+		}
+		revoke_allowed = { always = no }
+		ai_will_do = { 
+			factor = 1 
 		}
 	}
 	
@@ -483,8 +536,13 @@ decisions = {
 				text = can_vote_TT
 				hidden_tooltip = {
 					OR = {
-						had_global_flag = { flag = leg_to_vote days = 365 }
-						has_global_flag = first_leg
+						had_global_flag = { flag = bill_pass days = 365 }
+						NOT = {
+							has_global_flag = bill_pass
+						}
+					}
+					NOT = {
+						has_global_flag = bill_sent
 					}
 				}
 			}
@@ -493,11 +551,9 @@ decisions = {
 			change_society_currency = -50
 			character_event = { id = SC.37 }
 			hidden_tooltip = {
-				clr_global_flag = leg_to_vote
-				set_global_flag = leg_to_vote
-				
-				clr_global_flag = first_leg
-				
+				clr_global_flag = bill_pass
+				set_global_flag = bill_sent
+								
 				set_character_flag = legislation
 			}
 		}
@@ -561,6 +617,7 @@ decisions = {
 			has_global_flag = exec_order_sent
 		}
 		allow = {
+			has_law = senate_laws_0
 			religion_authority = 0.8
 			prestige = 2000
 			piety = 1000

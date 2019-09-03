@@ -1,0 +1,29 @@
+succ_presidential_elective;Constitutional Elective;;;;;;;;;;;;;x
+succ_presidential_elective_desc;The lords of the United States, along with the Federal Cabinet, choose the next ruler.;;;;;;;;;;;;;x
+presidential_elective;Constitutional Elective;;;;;;;;;;;;;x
+
+succ_presidential_senatorial_elective;State Elective;;;;;;;;;;;;;x
+succ_presidential_senatorial_elective_desc;The Generals, Governors and Senators of the United States, along with the Federal Cabinet, choose the next ruler.;;;;;;;;;;;;;x
+presidential_senatorial_elective;State Elective;;;;;;;;;;;;;x
+
+succ_presidential_electoral_college_elective;State Electoral College Elective;;;;;;;;;;;;;x
+succ_presidential_electoral_college_elective_desc;The Generals, Governors and Senators of the United States choose the next ruler. The electoral strength is based on amount of counties in one's realm.;;;;;;;;;;;;;x
+presidential_electoral_college_elective;State Electoral College Elective;;;;;;;;;;;;;x
+
+succ_state_elective;Constitutional Elective;;;;;;;;;;;;;x
+succ_state_elective_desc;The lords of the Commonwealth, along with the Cabinet, choose the next ruler.;;;;;;;;;;;;;x
+state_elective;Constitutional Elective;;;;;;;;;;;;;x
+
+senate_laws;Senate;;;;;;;;;;;;;x
+senate_laws_0;Disbanded;;;;;;;;;;;;;x
+senate_laws_0_desc;The Senate of the United States has been disbanded.;;;;;;;;;;;;;x
+senate_laws_1;Empowered;;;;;;;;;;;;;x
+senate_laws_1_desc;The Senate of the United States has been empowered to take part in the executive and legislative process.;;;;;;;;;;;;;x
+
+state_succession;State Succession;;;;;;;;;;;;;x
+state_succession_0;Democratic;;;;;;;;;;;;;x
+state_succession_0_desc;All States in the Union will elect their Leaders in a democratic manner.;;;;;;;;;;;;;x
+state_succession_1;Unspecified;;;;;;;;;;;;;x
+state_succession_1_desc;All States in the Union will be allowed to choose their own form of succession.;;;;;;;;;;;;;x
+state_succession_2;Governorships;;;;;;;;;;;;;x
+state_succession_2_desc;The President will be allowed to nominate Governors of States at their lesiure.;;;;;;;;;;;;;x

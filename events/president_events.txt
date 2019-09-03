@@ -547,6 +547,7 @@ letter_event = {
 			#Faithism
 			additive_modifier = { #Infidel
 				value = -10
+                trait = zealous
 				localisation_key = tooltip_feudal_elector_vote_infidel
 				NOT = { has_religion_feature = religion_cosmopolitan }
 				NOT = { has_religion_feature = religion_feature_espiritista }
@@ -561,6 +562,7 @@ letter_event = {
 			}
 			additive_modifier = { #Heathen
 				value = -25
+                trait = zealous
 				localisation_key = tooltip_feudal_elector_vote_heathen
 				NOT = { has_religion_feature = religion_cosmopolitan }
 				NOT = { has_religion_feature = religion_feature_espiritista }
@@ -624,6 +626,7 @@ letter_event = {
 			}
 			additive_modifier = { #Heretic
 				value = -25
+                trait = zealous
 				localisation_key = tooltip_feudal_elector_vote_heretic
 				NOT = { has_religion_feature = religion_cosmopolitan }
 				NOT = { has_religion_feature = religion_feature_espiritista }
@@ -634,6 +637,7 @@ letter_event = {
 			}
 			additive_modifier = { #Dogmatics will hardly ever pick an infidel.
 				value = -100
+                trait = zealous
 				localisation_key = tooltip_feudal_elector_vote_heathen_dogmatic
 				has_religion_feature = religion_dogmatic
 				event_target:c1 = { NOT = { religion = ROOT } }
@@ -2718,6 +2722,7 @@ letter_event = {
             #Faithism
             additive_modifier = { #Infidel
                 value = -10
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_infidel
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -2732,6 +2737,7 @@ letter_event = {
             }
             additive_modifier = { #Heathen
                 value = -25
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heathen
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -2795,6 +2801,7 @@ letter_event = {
             }
             additive_modifier = { #Heretic
                 value = -25
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heretic
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -2805,6 +2812,7 @@ letter_event = {
             }
             additive_modifier = { #Dogmatics will hardly ever pick an infidel.
                 value = -100
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heathen_dogmatic
                 has_religion_feature = religion_dogmatic
                 event_target:c2 = { NOT = { religion = ROOT } }
@@ -4889,6 +4897,7 @@ letter_event = {
             #Faithism
             additive_modifier = { #Infidel
                 value = -10
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_infidel
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -4903,6 +4912,7 @@ letter_event = {
             }
             additive_modifier = { #Heathen
                 value = -25
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heathen
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -4966,6 +4976,7 @@ letter_event = {
             }
             additive_modifier = { #Heretic
                 value = -25
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heretic
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -4976,6 +4987,7 @@ letter_event = {
             }
             additive_modifier = { #Dogmatics will hardly ever pick an infidel.
                 value = -100
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heathen_dogmatic
                 has_religion_feature = religion_dogmatic
                 event_target:c3 = { NOT = { religion = ROOT } }
@@ -7061,6 +7073,7 @@ letter_event = {
             #Faithism
             additive_modifier = { #Infidel
                 value = -10
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_infidel
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -7075,6 +7088,7 @@ letter_event = {
             }
             additive_modifier = { #Heathen
                 value = -25
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heathen
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -7138,6 +7152,7 @@ letter_event = {
             }
             additive_modifier = { #Heretic
                 value = -25
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heretic
                 NOT = { has_religion_feature = religion_cosmopolitan }
                 NOT = { has_religion_feature = religion_feature_espiritista }
@@ -7148,6 +7163,7 @@ letter_event = {
             }
             additive_modifier = { #Dogmatics will hardly ever pick an infidel.
                 value = -100
+                trait = zealous
                 localisation_key = tooltip_feudal_elector_vote_heathen_dogmatic
                 has_religion_feature = religion_dogmatic
                 event_target:c4 = { NOT = { religion = ROOT } }

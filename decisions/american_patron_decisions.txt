@@ -6,10 +6,10 @@ decisions = {
 
 		potential = {
 			is_playable = yes
-			NOT = { has_trait = washington }
-			NOT = { has_trait = jefferson }
-			NOT = { has_trait = lincoln }
-			NOT = { has_trait = roosevelt }
+			NOT = { trait = washington }
+			NOT = { trait = jefferson }
+			NOT = { trait = lincoln }
+			NOT = { trait = roosevelt }
 			NOT = { has_character_flag = chose_patron }
 			OR = {
 				religion = americanist
@@ -20,7 +20,7 @@ decisions = {
 		allow = {
 			war = no
 			NOT = {
-				has_trait = incapable
+				trait = incapable
 			}
 			NOT = { has_character_flag = chose_patron }
 		}

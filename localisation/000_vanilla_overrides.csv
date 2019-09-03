@@ -1,20 +1,29 @@
-EVTDESCHFA20306;Organizing such a monumental ceremony has given me the chance to meet the rulers of the realms neighboring [Root.PrimaryTitle.GetName]. Maintaining healthy relationships with my Americanist peers is fundamental to ensure future peace and prosperity for my realm. [potential_friend.GetTitledFirstName] in particular seems like a [potential_friend.GetManWoman] I could trust...;;;;;;;;;;;;;x
+EVTDESCHFA20306;Organizing such a monumental ceremony has given me the chance to meet the rulers of the realms neighboring [Root.PrimaryTitle.GetName]. Maintaining healthy relationships with my [Root.Religion.GetName] peers is fundamental to ensure future peace and prosperity for my realm. [potential_friend.GetTitledFirstName] in particular seems like a [potential_friend.GetManWoman] I could trust...;;;;;;;;;;;;;x
 
-EVTDESCHFA20385;My [From.GetJobTitle] informed me today that my prolonged lack of legitimization in the eyes of the [Root.Religion.GetName] Court is seriously damaging all diplomatic missions of my realm.;;;;;;;;;;;;;x
-
-EVTDESCHFA20315;The night at [From.GetTitledFirstName]'s court took a strange turn when our host decided to call some of the [Root.Religion.GetPriestTitle]s and scholars at the nobles' table, engaging with them in a long discussion about theology. I did not expect this feast to turn into a lesson about [Root.Religion.GetName] theology, but...;;;;;;;;;;;;;x
+EVTDESCHFA20311;Meeting new rulers and exchanging ideas about politics and royal virtues has been an interesting consequence of this ceremony. Everybody has at least one anecdote to share with me about the proper way to rule a realm. I wonder which is closer to the truth...;;;;;;;;;;;;;;x
 
 EVTDESCHFA20314;[coronation_priest.GetTitledFirstName]'s presence for my upcoming ceremony has lured an entire flock of scholars and theologians in my court. While most of them keep their distance from the nobility, I have had the chance to overhear a few of them discussing about the most intriguing, metaphysical subjects during the evening.;;;;;;;;;;;;;x
 
-uncrowned_modifier;Unlegitmized;;;;;;;;;;;;;x
-uncrowned_modifier_desc;A [Root.Religion.GetName] ruler who has not been legitimized by a member of the faith will never be fully accepted by his vassals as legitimate.\nThe more years he wastes before being anointed, the more likely his vassals will be to doubt the validity of his divine right to rule.;;;;;;;;;;;;;x
+EVTDESCHFA20315;The night at [From.GetTitledFirstName]'s court took a strange turn when our host decided to call some of the [Root.Religion.GetPriestTitle]s and scholars at the nobles' table, engaging with them in a long discussion about theology. I did not expect this feast to turn into a lesson about [Root.Religion.GetName] theology, but...;;;;;;;;;;;;;x
 
-crowned_in_barn_desc;This ruler was legitimized in seclusion, without much celebration. While this is a clear sign of lack of wealth and influence, some members of the faith may also consider it a show of humility.;;;;;;;;;;;;;x
+EVTDESCHFA20316;With so many distinguished guests having traveled all the way to my court, the least I could do is entertain them while we all wait for the day of my ceremony. This could also provide me with an opportunity to impress some of my more influential guests.;;;;;;;;;;;;;x
 
-crowned_in_war;Battlefield Legitimization;;;;;;;;;;;;;x
-crowned_in_war_desc;After endless procrastination, this ruler was eventually forced to be legitimized in a hurry at the worst of times, in the middle of a war.;;;;;;;;;;;;;x
+EVTDESCHFA20322;With all this pomp and circumstance, all these lavish preparations, and with my ceremony so close, I am finally starting to understand the weight and importance of my role as [Root.GetTitle]. People expect great things of me.;;;;;;;;;;;;;x
 
-extravagant_coronation;Extravagant Ceremony;;;;;;;;;;;;;x
-extravagant_coronation_desc;This ruler received [Root.GetHerHis] legitimization at the culmination of an entire month of glorious festivities in [Root.GetHerHis] honor, a clear show of power and wealth that few will forget.;;;;;;;;;;;;;x
+EVTDESCHFA20323;Everybody is so kind and respectful to me, even a lot of important people that I only met a few days ago. This Ceremony is a lot more important than I had thought. It is really great to be a [Root.GetTitle]!;;;;;;;;;;;;;x
+
+EVTDESCHFA20324;[coronation_priest.GetTitledFirstName] approached me tonight to personally inform me of how satisfied [coronation_priest.GetSheHe] is with the great month of festivity I have organized to accompany my ceremony. [coronation_priest.GetSheHeCap] wanted to be sure that I knew of how welcome [coronation_priest.GetSheHe] feels at my court, and that [coronation_priest.GetSheHe] expects great things of me.;;;;;;;;;;;;;x
+
+EVTDESCHFA20327;Late this evening, as the servants were clearing up our tables, [coronation_priest.GetTitledName] decided to talk to me about my new responsibilities after the ceremony: as a [Root.Religion.GetName] [Root.GetTitle], I will be sworn to care for the secular needs of all my subjects as well as to stand against the tide of sin and heresy beseeching our world.;;;;;;;;;;;;;x
+
+EVTDESCHFA20352;Everybody is praising [From.GetTitledFirstName], everybody is saying what a great [From.GetTitle] [From.GetSheHe] will make... If nothing else, this Ceremony has really made me realize how much I despise that [From.GetManWoman].;;;;;;;;;;;;;x
+
+EVTDESCHFA20356;However justified my reasons were to organize a secluded ceremony, rather than waste money and time on feasts and entertainment, my vassals are far from pleased. Not only do they perceive it as a sign of weakness, but they all seem to have taken their lack of invitation as a personal slight against them!;;;;;;;;;;;;;x
+
+EVTDESCHFA20361;Spending the days leading up to my ceremony in seclusion has given me time to meditate about my duties as a [Root.Religion.GetName] [Root.GetTitle]. Perhaps I have been too egoistical in the past, perhaps this is my chance to be a humbler, kinder ruler...;;;;;;;;;;;;;x
+
+EVTDESCHFA20362;As I spend my evenings alone, counting the days left before my ceremony, I cannot shake the feeling that I would have been able to afford a more lavish event if it were not for [lazy_treasurer.GetTitledFirstName]'s mismanagement of the realm's finances...;;;;;;;;;;;;;x
+
+EVTDESCHFA20385;My [From.GetJobTitle] informed me today that my prolonged lack of legitimization in the eyes of the [Root.Religion.GetName] Court is seriously damaging all diplomatic missions of my realm.;;;;;;;;;;;;;x
 
 coronation_peasants_happy_desc;The people of this province are still caught in the celebrations for the legitimization of their new ruler.;;;;;;;;;;;;;x

@@ -1,28 +1,26 @@
 law_groups = {
-	noble_council = {
-		law_type = council
+	senate_laws = {
+		law_type = realm
+		allowed_for_councillors = yes
+	}
+	state_succession = {
+		law_type = realm
 		allowed_for_councillors = yes
 	}
 }
 
 laws = {
-	noble_council_0 = {
+	senate_laws_0 = {
 		group = senate_laws
 		allow = {
 			has_law = law_voting_power_1
-			has_law = noble_council_1
+			has_law = senate_laws_1
+			has_global_flag = exec_order_sent
 		}
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = duke
-			is_feudal = yes
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_1
-				has_law	= tribal_organization_2
-				has_law	= tribal_organization_3
-				has_law = tribal_organization_4
-			}
+			title = e_usa
+			holder_scope = { government = constitutional_rep }
 		}
 		ai_will_do = {
 			factor = 10
@@ -30,34 +28,36 @@ laws = {
 		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
-			
+			hidden_tooltip = {
+				revoke_law = ze_administration_laws_0
+				revoke_law = ze_administration_laws_1
+				revoke_law = ze_administration_laws_2
+				revoke_law = vice_royalty_0
+				revoke_law = vice_royalty_1
+				revoke_law = vice_royalty_2
+				revoke_law = state_succession_0
+				revoke_law = state_succession_1
+				revoke_law = state_succession_2
+				revoke_law = senate_laws_1
+			}
+			add_law = state_succession_2
 		}
 		
 		vassal_limit = 2
 		feudal_opinion = +5
 	}
 
-	noble_council_1 = {
+	senate_laws_1 = {
 		group = senate_laws
 		default = yes
 		allow = {
 			has_law = law_voting_power_1
-			OR = {
-				has_law = noble_council_0
-				has_law = noble_council_2
-			}
+			has_law = senate_laws_0
 		}
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = duke
-			is_feudal = yes
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_1
-				has_law	= tribal_organization_2
-				has_law	= tribal_organization_3
-				has_law = tribal_organization_4
-			}
+			title = e_usa
+			holder_scope = { government = constitutional_rep }
 		}
 		ai_will_do = {
 			factor = 0
@@ -65,30 +65,58 @@ laws = {
 		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
-			
+			hidden_tooltip = {
+				if  = {
+					limit = {
+						has_law = state_succession_2
+					}
+					revoke_law = state_succession_2
+					add_law = state_succession_2
+				}
+				revoke_law = senate_laws_0
+			}
+			any_vassal = {
+				limit = {
+					FROM = { has_title_flag = e_usa_senator_title }
+				}
+				if = {
+					limit = { has_job_title = job_chancellor }
+					remove_title = job_chancellor
+				}
+				if = {
+					limit = { has_job_title = job_marshal }
+					remove_title = job_marshal
+				}
+				if = {
+					limit = { has_job_title = job_treasurer }
+					remove_title = job_treasurer
+				}
+				if = {
+					limit = { has_job_title = job_spymaster }
+					remove_title = job_spymaster
+				}
+				if = {
+					limit = { has_job_title = job_spiritual }
+					remove_title = job_spiritual
+				}
+				give_senate_title = yes
+			}
 		}
-
-		feudal_opinion = +2
+		
+		vassal_limit = 2
+		feudal_opinion = +5
 	}
 
-	noble_council_2 = {
-		group = senate_laws
-		default = yes
+	state_succession_0 = { #Force elections in states
+		group = state_succession
 		allow = {
-			has_law = law_voting_power_1
-			has_law = noble_council_1
+			has_law = senate_laws_1
+			has_law = state_succession_1
 		}
 		potential = {
 			has_dlc = "Zeus"
-			higher_tier_than = duke
-			is_feudal = yes
-			OR = {
-				NOT = { holder_scope = { is_tribal = yes } }
-				has_law = tribal_organization_1
-				has_law	= tribal_organization_2
-				has_law	= tribal_organization_3
-				has_law = tribal_organization_4
-			}
+			title = e_usa
+			holder_scope = { government = constitutional_rep }
 		}
 		ai_will_do = {
 			factor = 0
@@ -96,10 +124,154 @@ laws = {
 		ai_will_revoke = { factor = 0 }
 		pass_effect = { }
 		effect = {
-			
+			hidden_tooltip = {
+				revoke_law = ze_administration_laws_0
+				revoke_law = ze_administration_laws_1
+				revoke_law = ze_administration_laws_2
+				revoke_law = vice_royalty_0
+				revoke_law = vice_royalty_1
+				revoke_law = vice_royalty_2
+				revoke_law = state_succession_1
+				revoke_law = state_succession_2
+			}
+			set_allow_vice_royalties = no
+			any_title = {
+				limit = {
+					tier = KING
+					has_title_flag = e_usa_senator_title
+					holder_scope = {
+						is_feudal = yes
+						OR = {
+							has_landed_title = e_usa
+							top_liege = {
+								has_landed_title = e_usa
+							}
+						}
+					}
+				}
+				holder_scope = { set_government_type = constitutional_rep }
+				add_law = succ_state_elective
+				recalc_succession = yes
+			}
 		}
+		vassal_limit = 15
+		feudal_opinion = -5
+	}
 
-		feudal_opinion = +5
-		town_opinion = -5
+	state_succession_1 = { #Any succession
+		group = state_succession
+		default = yes
+		allow = {
+			has_law = senate_laws_1
+			OR = {
+				has_law = state_succession_0
+				has_law = state_succession_2
+			}
+		}
+		potential = {
+			has_dlc = "Zeus"
+			title = e_usa
+			holder_scope = { government = constitutional_rep }
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_law = state_succession_2
+			}
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			hidden_tooltip = {
+				revoke_law = ze_administration_laws_0
+				revoke_law = ze_administration_laws_1
+				revoke_law = ze_administration_laws_2
+				revoke_law = vice_royalty_0
+				revoke_law = vice_royalty_1
+				revoke_law = vice_royalty_2
+				revoke_law = state_succession_0
+				revoke_law = state_succession_2
+			}
+			set_allow_vice_royalties = no
+			any_title = {
+				limit = {
+					tier = KING
+					has_title_flag = e_usa_senator_title
+					is_vice_royalty = yes
+					holder_scope = {
+						is_feudal = yes
+						OR = {
+							has_landed_title = e_usa
+							top_liege = {
+								has_landed_title = e_usa
+							}
+						}
+					}
+				}
+				log = "[This.GetName] is a valid title"
+				holder_scope = {
+					liege = { gain_title = PREVPREV }
+					gain_title = PREV
+					set_government_type = constitutional_rep 
+				}
+				add_law = succ_state_elective
+				recalc_succession = yes
+			}
+		}
+		vassal_limit = 15
+		feudal_opinion = -5
+	}
+
+	state_succession_2 = { #Viceroyalities
+		group = state_succession
+		allow = {
+			has_law = state_succession_1
+		}
+		potential = {
+			has_dlc = "Zeus"
+			title = e_usa
+			holder_scope = { government = constitutional_rep }
+		}
+		ai_will_do = {
+			factor = 3
+		}
+		ai_will_revoke = { factor = 0 }
+		pass_effect = { }
+		effect = {
+			hidden_tooltip = {
+				revoke_law = ze_administration_laws_0
+				revoke_law = ze_administration_laws_1
+				revoke_law = ze_administration_laws_2
+				revoke_law = vice_royalty_0
+				revoke_law = vice_royalty_1
+				revoke_law = vice_royalty_2
+				revoke_law = state_succession_0
+				revoke_law = state_succession_1
+			}
+			if = {
+				limit = { 
+					NOT = { has_dlc = "Charlemagne" } 
+				}
+				set_allow_free_duchy_revokation = yes
+			}
+			if  = {
+				limit = {
+					has_dlc = "Charlemagne"
+					has_law = senate_laws_1
+				}
+				set_allow_vice_royalties = king
+				set_allow_free_vice_royalty_revokation = yes
+			}
+			else_if  = {
+				limit = {
+					has_dlc = "Charlemagne"
+				}
+				set_allow_vice_royalties = duke
+				set_allow_free_vice_royalty_revokation = yes
+			}
+		}
+		vassal_limit = 15
+		feudal_opinion = -10
 	}
 }

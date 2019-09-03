@@ -5,3 +5,26 @@ on_new_holder = {
 		USSEN.2 #Give president title to the ruler of USA
 	}
 }
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_inheritance = {
+	events = {
+		USSEN.1 #Carry over senator title to new ruler
+		USSEN.2 #Give president title to the ruler of USA
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+		USSEN.1 #Carry over senator title to new ruler
+		USSEN.2 #Give president title to the ruler of USA
+	}
+}
+
+# ROOT is the creating character, FROM is the title
+on_create_title = {
+	events = {
+		USSEN.4
+	}
+}

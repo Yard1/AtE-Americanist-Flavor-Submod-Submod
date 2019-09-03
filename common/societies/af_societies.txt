@@ -61,7 +61,8 @@ soc_congress = {
 			general_opinion = -5
 		}
 		decisions = {
-			propose_legislation # Can put legislation forth
+			propose_legislation # Can put constitutional legislation forth
+			propose_legislation_b # Can put legislation forth
 			propose_tax_legislation # Can put tax legislation forth, if demrep
 		}
 	}

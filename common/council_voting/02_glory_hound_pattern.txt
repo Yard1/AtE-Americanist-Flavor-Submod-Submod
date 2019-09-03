@@ -75,6 +75,17 @@ glory_hound_pattern_for = {
 	
 	law_voting_power_0 = { always = no }
 	law_voting_power_1 = { always = yes }
+	senate_laws_0 = { always = no }
+	senate_laws_1 = { always = yes }
+	state_succession_0 = {
+		NOT = { tier = KING }
+	}
+	state_succession_1 = {
+		always = yes
+	}
+	state_succession_2 = {
+		always = no
+	}
 	banish_voting_power_0 = { always = no }
 	banish_voting_power_1 = { always = yes }
 	execution_voting_power_0 = { always = no }
@@ -428,6 +439,18 @@ glory_hound_pattern_against = {
 	
 	law_voting_power_0 = { always = yes }
 	law_voting_power_1 = { always = no }
+	senate_laws_0 = { always = yes }
+	senate_laws_1 = { always = no }
+	state_succession_0 = {
+		is_landed = yes
+		tier = KING
+	}
+	state_succession_1 = {
+		always = no
+	}
+	state_succession_2 = {
+		is_feudal = yes
+	}
 	banish_voting_power_0 = { always = yes }
 	banish_voting_power_1 = { always = no }
 	execution_voting_power_0 = { always = yes }

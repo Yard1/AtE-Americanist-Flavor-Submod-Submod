@@ -98,8 +98,8 @@ loyalist = {
 				primary_title = { title = e_usa }
 			}
 			OR = {
-				has_trait = am_loyalist
-				has_trait = am_loyalist_pl
+				trait = am_loyalist
+				trait = am_loyalist_pl
 			}
 		}
 	}

@@ -31,7 +31,7 @@ random_inaug_events_effect = {
 				factor = 0.1 
 				has_character_flag = flag_extravagant_coronation
 			}
-			event_target:coronation_ruler = { character_event = { id = HF.20366 days = 15 } } #Directly fire coronation
+			event_target:coronation_ruler = { character_event = { id = AFI.108 days = 15 } } #Directly fire coronation
 		}
 		4 = {
 			modifier = { 

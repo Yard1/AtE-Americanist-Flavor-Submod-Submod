@@ -411,12 +411,10 @@ letter_event = {
 					factor = 0
 					b_washington = {
 						holder_scope = {
-                            NOR = {
-                                religion = americanist
-                                religion = hamiltonian
-                                religion = jeffersonian
-                                religion = libertarian
-                            }
+							NOR = {
+								religion = americanist
+								religion = hamiltonian
+							}
 						}
 					}
 				}
@@ -1438,12 +1436,10 @@ character_event = {
 
 	trigger = { 
 		event_target:coronation_ruler = {
-            OR = {
-                religion = americanist
-                religion = hamiltonian
-                religion = jeffersonian
-                religion = libertarian
-            }
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+			}
 			OR = {
 				has_character_flag = flag_crowned_by_priest
 				has_character_flag = flag_crowned_by_bishop
@@ -1551,12 +1547,10 @@ long_character_event = {
 	trigger = { 
 		NOT = { has_character_flag = flag_being_coronated }
 		event_target:coronation_ruler = { 
-            OR = {
-                religion = americanist
-                religion = hamiltonian
-                religion = jeffersonian
-                religion = libertarian
-            }
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+			}
 			OR = {
 				has_character_flag = flag_crowned_by_priest
 				has_character_flag = flag_crowned_by_bishop
@@ -1596,7 +1590,7 @@ long_character_event = {
 			sound_effect = coronation_normal
 		}
 		ROOT = {
-			remove_character_modifiers = { modifier = uncrowned_modifier amount = 30 } 
+			remove_character_modifiers = { modifier = uninaug_modifier amount = 30 } 
 			set_variable = { which = uninaug_count value = 0 }
 			set_character_flag = flag_being_coronated #Safety check to avoid double event.
 		}
@@ -1634,7 +1628,7 @@ long_character_event = {
 				NOT = { has_character_flag = flag_crowned_by_pope } 
 			} 
 			add_character_modifier = {
-				name = crowned_in_barn
+				name = inaug_in_barn
 				days = -1
 			}
 		}
@@ -1644,7 +1638,7 @@ long_character_event = {
 				has_character_flag = flag_secluded_coronation 
 			} 
 			add_character_modifier = {
-				name = crowned_in_war
+				name = inaug_in_war
 				days = -1
 			}
 		}
@@ -1654,7 +1648,7 @@ long_character_event = {
 				NOT = { has_character_flag = flag_crowned_by_priest } 
 			} 
 			add_character_modifier = {
-				name = extravagant_coronation
+				name = extravagant_inaug
 				days = 7300
 			}
 		}
@@ -1779,7 +1773,7 @@ long_character_event = {
 	immediate = {
 		if = {
 			limit = {
-				FROM = { has_character_modifier = extravagant_coronation }
+				FROM = { has_character_modifier = extravagant_inaug }
 			}
 			sound_effect = coronation_extravagant
 		}
@@ -1870,7 +1864,7 @@ character_event = {
 	immediate = {
 		if = {
 			limit = {
-				FROM = { has_character_modifier = crowned_in_barn war = no }
+				FROM = { has_character_modifier = inaug_in_barn war = no }
 			}
 			sound_effect = coronation_barn
 		}
@@ -1911,7 +1905,7 @@ character_event = {
 	immediate = {
 		hidden_tooltip = { #Post-ceremony flavor.
 			if = { 
-				limit = { has_character_modifier = crowned_in_barn } 
+				limit = { has_character_modifier = inaug_in_barn } 
 				random = { 
 					chance = 30 
 					character_event = { id = AFI.117 days = 100 random = 100 } #Emperor humbled by Crowning in a barn.
@@ -2029,11 +2023,11 @@ character_event = {
 		}
 		if = { 
 			limit = { 
-				FROM = { has_character_modifier = extravagant_coronation }
+				FROM = { has_character_modifier = extravagant_inaug }
 				independent = yes
 				higher_real_tier_than = COUNT
 				OR = { 
-					has_character_modifier = crowned_in_barn
+					has_character_modifier = inaug_in_barn
 					OR = {
 						NOR = {
 							trait = inaug_by_judge
@@ -2069,12 +2063,10 @@ character_event = {
 				} 
 				has_character_flag = prez_inaug
 			}
-            OR = {
-                religion = americanist
-                religion = hamiltonian
-                religion = jeffersonian
-                religion = libertarian
-            }
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+			}
 			higher_real_tier_than = COUNT
 		}
 	}
@@ -2261,12 +2253,10 @@ character_event = {
 				trait = inaug_by_judge
 				trait = inaug_prez
 			}
-            OR = {
-                religion = americanist
-                religion = hamiltonian
-                religion = jeffersonian
-                religion = libertarian
-            }
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+			}
 			higher_real_tier_than = COUNT
 		}
 	}
@@ -2302,7 +2292,7 @@ character_event = {
 			trait = inaug_by_judge
 			trait = inaug_by_cjudge
 		}
-		has_character_modifier = crowned_in_barn
+		has_character_modifier = inaug_in_barn
 	 } 
 
 	option = {
@@ -2400,12 +2390,10 @@ character_event = {
 				modifier = { 
 					factor = 0
 					spouse = { 
-                    NOR = {
-                        religion = americanist
-                        religion = hamiltonian
-                        religion = jeffersonian
-                        religion = libertarian
-                    }
+						NOR = { 
+							religion = americanist
+							religion = hamiltonian
+						}
 					}
 				}
 				modifier = { 
@@ -2677,12 +2665,10 @@ character_event = {
 				trait = inaug_by_judge
 				trait = inaug_prez
 			}
-            OR = {
-                religion = americanist
-                religion = hamiltonian
-                religion = jeffersonian
-                religion = libertarian
-            }
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+			}
 			higher_real_tier_than = COUNT
 		}
 	}
@@ -2763,7 +2749,7 @@ character_event = {
 			trait = inaug_by_judge
 			trait =inaug_by_cjudge
 		}
-		has_character_modifier = extravagant_coronation
+		has_character_modifier = extravagant_inaug
 	 } 
 
 	option = { #Use excitement to build trade
@@ -2828,7 +2814,7 @@ character_event = {
 			trait = inaug_by_judge
 			trait = inaug_by_cjudge
 		}
-		has_character_modifier = extravagant_coronation
+		has_character_modifier = extravagant_inaug
 	 } 
 
 	option = { 
@@ -2855,7 +2841,7 @@ character_event = {
 			trait = inaug_by_judge
 			trait = inaug_by_cjudge
 		}
-		has_character_modifier = extravagant_coronation
+		has_character_modifier = extravagant_inaug
 	 } 
 
 	option = { #Use excitement to build trade
@@ -2879,13 +2865,13 @@ character_event = {
 	id = AFI.125
 	desc = {
 		trigger = {
-			has_character_modifier = crowned_in_barn
+			has_character_modifier = inaug_in_barn
 		}
 		text = EVTDESCAAFI125
 	}
 	desc = {
 		trigger = {
-			NOT = { has_character_modifier = crowned_in_barn }
+			NOT = { has_character_modifier = inaug_in_barn }
 		}
 		text = EVTDESCBAFI125		
 	}
@@ -2896,9 +2882,9 @@ character_event = {
 	is_triggered_only = yes
 
 	trigger = { 
-		FROMFROM = { has_character_modifier = extravagant_coronation }
+		FROMFROM = { has_character_modifier = extravagant_inaug }
 		OR = { 
-			has_character_modifier = crowned_in_barn
+			has_character_modifier = inaug_in_barn
 			NOR = { 
 				trait = inaug_by_cjudge
 				trait = inaug_by_judge
@@ -2983,7 +2969,7 @@ character_event = {
 	immediate = { 
 		change_variable = { which = uninaug_count value = 1 }
 		add_character_modifier = {
-			name = uncrowned_modifier
+			name = uninaug_modifier
 			duration = -1
 			stacking = yes
 		}
@@ -3016,12 +3002,10 @@ character_event = {
 			NOT = { #Prevent same vassal from giving homage multiple times when inheriting new titles within the realm (from siblings and such)
 				current_heir = { vassal_of = PREV } 
 			}
-            OR = {
-                religion = americanist
-                religion = hamiltonian
-                religion = jeffersonian
-                religion = libertarian
-            }
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+			}
 			higher_real_tier_than = COUNT
 			OR = { 
 				trait = inaug_by_judge
@@ -3057,12 +3041,10 @@ character_event = {
 		religion_group = oldworld
 		liege = { 
 			NOT = { character = ROOT }
-            OR = {
-                religion = americanist
-                religion = hamiltonian
-                religion = jeffersonian
-                religion = libertarian
-            }
+			OR = {
+				religion = americanist
+				religion = hamiltonian
+			}
 			higher_real_tier_than = COUNT
 			OR = { 
 				trait = inaug_by_judge

@@ -109,7 +109,7 @@ character_event = {
 							}
 						}		
 						random_list = {
-							20 = {
+							25 = {
 								trigger = {
 									OR = {
 										diplomacy = 8
@@ -121,6 +121,18 @@ character_event = {
 								modifier = {
 									factor = 2
 									trait = charismatic_negotiator
+								}
+								modifier = {
+									factor = 2
+									trait = just
+								}
+								modifier = {
+									factor = 2
+									trait = gregarious
+								}
+								modifier = {
+									factor = 3
+									diplomacy = 20
 								}
 								create_bloodline = { 
 									type = prez_dip 
@@ -145,10 +157,27 @@ character_event = {
 								}
 								modifier = {
 									factor = 2
-									OR = {
-										trait = skilled_tactician
-										trait = americanist_leader
-									}
+									trait = skilled_tactician
+								}
+								modifier = {
+									factor = 2
+									trait = americanist_leader
+								}
+								modifier = {
+									factor = 2
+									trait = strategist
+								}
+								modifier = {
+									factor = 2
+									trait = brave
+								}
+								modifier = {
+									factor = 2
+									trait = brawny
+								}
+								modifier = {
+									factor = 3
+									martial = 20
 								}
 								create_bloodline = { 
 									type = prez_mar 
@@ -164,12 +193,28 @@ character_event = {
 										trait = banker
 									}
 								}
+								modifier = {
+									factor = 2
+									trait = midas_touched
+								}
+								modifier = {
+									factor = 2
+									is_merchant_republic = yes
+								}
+								modifier = {
+									factor = 2
+									trait = banker
+								}
+								modifier = {
+									factor = 3
+									stewardship = 20
+								}
 								create_bloodline = { 
 									type = prez_ste 
 									religion = americanist
 								}
 							}
-							10 = {
+							5 = {
 								trigger = {
 									OR = {
 										intrigue = 8
@@ -179,10 +224,15 @@ character_event = {
 								}
 								modifier = {
 									factor = 2
-									OR = {
-										trait = elusive_shadow
-										trait = schemer
-									}
+									trait = elusive_shadow
+								}
+								modifier = {
+									factor = 2
+									trait = schemer
+								}
+								modifier = {
+									factor = 3
+									intrigue = 20
 								}
 								create_bloodline = { 
 									type = prez_int 
@@ -202,12 +252,27 @@ character_event = {
 								}
 								modifier = {
 									factor = 2
-									OR = {
-										trait = zealous
-										trait = mastermind_theologian
-										trait = theologian
-										trait = scholar
-									}
+									trait = is_theocracy = yes
+								}
+								modifier = {
+									factor = 2
+									trait = zealous
+								}
+								modifier = {
+									factor = 2
+									trait = mastermind_theologian
+								}
+								modifier = {
+									factor = 2
+									trait = theologian
+								}
+								modifier = {
+									factor = 2
+									trait = scholar
+								}
+								modifier = {
+									factor = 3
+									learning = 20
 								}
 								create_bloodline = { 
 									type = prez_lea

@@ -7,7 +7,7 @@ title_senator_k_new_york = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -23,9 +23,9 @@ title_senator_k_new_york = {
 					title = k_new_york
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -35,9 +35,9 @@ title_senator_k_new_york = {
 			temporary = no
 			title = k_new_york
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -69,7 +69,7 @@ title_senator_k_new_england = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -85,9 +85,9 @@ title_senator_k_new_england = {
 					title = k_new_england
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -97,9 +97,9 @@ title_senator_k_new_england = {
 			temporary = no
 			title = k_new_england
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -131,7 +131,7 @@ title_senator_k_hudsonia = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -147,9 +147,9 @@ title_senator_k_hudsonia = {
 					title = k_hudsonia
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -159,9 +159,9 @@ title_senator_k_hudsonia = {
 			temporary = no
 			title = k_hudsonia
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -193,7 +193,7 @@ title_senator_k_deitscherei = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -209,9 +209,9 @@ title_senator_k_deitscherei = {
 					title = k_deitscherei
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -221,9 +221,9 @@ title_senator_k_deitscherei = {
 			temporary = no
 			title = k_deitscherei
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -255,7 +255,7 @@ title_senator_k_allegheny = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -271,9 +271,9 @@ title_senator_k_allegheny = {
 					title = k_allegheny
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -283,9 +283,9 @@ title_senator_k_allegheny = {
 			temporary = no
 			title = k_allegheny
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -317,7 +317,7 @@ title_senator_k_ohio = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -333,9 +333,9 @@ title_senator_k_ohio = {
 					title = k_ohio
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -345,9 +345,9 @@ title_senator_k_ohio = {
 			temporary = no
 			title = k_ohio
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -379,7 +379,7 @@ title_senator_k_old_dominion = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -395,9 +395,9 @@ title_senator_k_old_dominion = {
 					title = k_old_dominion
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -407,9 +407,9 @@ title_senator_k_old_dominion = {
 			temporary = no
 			title = k_old_dominion
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -441,7 +441,7 @@ title_senator_k_carolina = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -457,9 +457,9 @@ title_senator_k_carolina = {
 					title = k_carolina
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -469,9 +469,9 @@ title_senator_k_carolina = {
 			temporary = no
 			title = k_carolina
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -503,7 +503,7 @@ title_senator_k_dixieland = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -519,9 +519,9 @@ title_senator_k_dixieland = {
 					title = k_dixieland
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -531,9 +531,9 @@ title_senator_k_dixieland = {
 			temporary = no
 			title = k_dixieland
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -565,7 +565,7 @@ title_senator_k_florida = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -581,9 +581,9 @@ title_senator_k_florida = {
 					title = k_florida
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -593,9 +593,9 @@ title_senator_k_florida = {
 			temporary = no
 			title = k_florida
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -627,7 +627,7 @@ title_senator_k_louisiana = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -643,9 +643,9 @@ title_senator_k_louisiana = {
 					title = k_louisiana
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -655,9 +655,9 @@ title_senator_k_louisiana = {
 			temporary = no
 			title = k_louisiana
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -689,7 +689,7 @@ title_senator_k_appalachia = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -705,9 +705,9 @@ title_senator_k_appalachia = {
 					title = k_appalachia
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -717,9 +717,9 @@ title_senator_k_appalachia = {
 			temporary = no
 			title = k_appalachia
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -751,7 +751,7 @@ title_senator_k_michigan = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -767,9 +767,9 @@ title_senator_k_michigan = {
 					title = k_michigan
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -779,9 +779,9 @@ title_senator_k_michigan = {
 			temporary = no
 			title = k_michigan
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -813,7 +813,7 @@ title_senator_k_uppland = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -829,9 +829,9 @@ title_senator_k_uppland = {
 					title = k_uppland
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -841,9 +841,9 @@ title_senator_k_uppland = {
 			temporary = no
 			title = k_uppland
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -875,7 +875,7 @@ title_senator_k_magnolia = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -891,9 +891,9 @@ title_senator_k_magnolia = {
 					title = k_magnolia
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -903,9 +903,9 @@ title_senator_k_magnolia = {
 			temporary = no
 			title = k_magnolia
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -937,7 +937,7 @@ title_senator_k_chicagoland = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -953,9 +953,9 @@ title_senator_k_chicagoland = {
 					title = k_chicagoland
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -965,9 +965,9 @@ title_senator_k_chicagoland = {
 			temporary = no
 			title = k_chicagoland
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -999,7 +999,7 @@ title_senator_k_iowa = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1015,9 +1015,9 @@ title_senator_k_iowa = {
 					title = k_iowa
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1027,9 +1027,9 @@ title_senator_k_iowa = {
 			temporary = no
 			title = k_iowa
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1061,7 +1061,7 @@ title_senator_k_missouri = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1077,9 +1077,9 @@ title_senator_k_missouri = {
 					title = k_missouri
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1089,9 +1089,9 @@ title_senator_k_missouri = {
 			temporary = no
 			title = k_missouri
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1123,7 +1123,7 @@ title_senator_k_ozarks = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1139,9 +1139,9 @@ title_senator_k_ozarks = {
 					title = k_ozarks
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1151,9 +1151,9 @@ title_senator_k_ozarks = {
 			temporary = no
 			title = k_ozarks
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1185,7 +1185,7 @@ title_senator_k_jacinto = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1201,9 +1201,9 @@ title_senator_k_jacinto = {
 					title = k_jacinto
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1213,9 +1213,9 @@ title_senator_k_jacinto = {
 			temporary = no
 			title = k_jacinto
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1247,7 +1247,7 @@ title_senator_k_rio_grande = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1263,9 +1263,9 @@ title_senator_k_rio_grande = {
 					title = k_rio_grande
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1275,9 +1275,9 @@ title_senator_k_rio_grande = {
 			temporary = no
 			title = k_rio_grande
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1309,7 +1309,7 @@ title_senator_k_comancheria = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1325,9 +1325,9 @@ title_senator_k_comancheria = {
 					title = k_comancheria
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1337,9 +1337,9 @@ title_senator_k_comancheria = {
 			temporary = no
 			title = k_comancheria
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1371,7 +1371,7 @@ title_senator_k_platte = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1387,9 +1387,9 @@ title_senator_k_platte = {
 					title = k_platte
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1399,9 +1399,9 @@ title_senator_k_platte = {
 			temporary = no
 			title = k_platte
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1433,7 +1433,7 @@ title_senator_k_colorado = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1449,9 +1449,9 @@ title_senator_k_colorado = {
 					title = k_colorado
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1461,9 +1461,9 @@ title_senator_k_colorado = {
 			temporary = no
 			title = k_colorado
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1495,7 +1495,7 @@ title_senator_k_yellowstone = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1511,9 +1511,9 @@ title_senator_k_yellowstone = {
 					title = k_yellowstone
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1523,9 +1523,9 @@ title_senator_k_yellowstone = {
 			temporary = no
 			title = k_yellowstone
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1557,7 +1557,7 @@ title_senator_k_arixo = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1573,9 +1573,9 @@ title_senator_k_arixo = {
 					title = k_arixo
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1585,9 +1585,9 @@ title_senator_k_arixo = {
 			temporary = no
 			title = k_arixo
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1619,7 +1619,7 @@ title_senator_k_deseret = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1635,9 +1635,9 @@ title_senator_k_deseret = {
 					title = k_deseret
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1647,9 +1647,9 @@ title_senator_k_deseret = {
 			temporary = no
 			title = k_deseret
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1681,7 +1681,7 @@ title_senator_k_idaho = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1697,9 +1697,9 @@ title_senator_k_idaho = {
 					title = k_idaho
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1709,9 +1709,9 @@ title_senator_k_idaho = {
 			temporary = no
 			title = k_idaho
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1743,7 +1743,7 @@ title_senator_k_death_valley = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1759,9 +1759,9 @@ title_senator_k_death_valley = {
 					title = k_death_valley
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1771,9 +1771,9 @@ title_senator_k_death_valley = {
 			temporary = no
 			title = k_death_valley
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1805,7 +1805,7 @@ title_senator_k_socal = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1821,9 +1821,9 @@ title_senator_k_socal = {
 					title = k_socal
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1833,9 +1833,9 @@ title_senator_k_socal = {
 			temporary = no
 			title = k_socal
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1867,7 +1867,7 @@ title_senator_k_the_valley = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1883,9 +1883,9 @@ title_senator_k_the_valley = {
 					title = k_the_valley
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1895,9 +1895,9 @@ title_senator_k_the_valley = {
 			temporary = no
 			title = k_the_valley
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1929,7 +1929,7 @@ title_senator_k_francisco = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -1945,9 +1945,9 @@ title_senator_k_francisco = {
 					title = k_francisco
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -1957,9 +1957,9 @@ title_senator_k_francisco = {
 			temporary = no
 			title = k_francisco
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -1991,7 +1991,7 @@ title_senator_k_jefferson = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -2007,9 +2007,9 @@ title_senator_k_jefferson = {
 					title = k_jefferson
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -2019,9 +2019,9 @@ title_senator_k_jefferson = {
 			temporary = no
 			title = k_jefferson
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -2053,7 +2053,7 @@ title_senator_k_cascadia = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -2069,9 +2069,9 @@ title_senator_k_cascadia = {
 					title = k_cascadia
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -2081,9 +2081,9 @@ title_senator_k_cascadia = {
 			temporary = no
 			title = k_cascadia
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {
@@ -2115,7 +2115,7 @@ title_senator_k_lincoln = {
 	
 	allowed_to_grant = {
 		has_dlc = "Zeus"
-		is_feudal = yes
+#		is_feudal = yes
 		has_landed_title = e_usa
 		OR = {
 			religion_group = christian
@@ -2131,9 +2131,9 @@ title_senator_k_lincoln = {
 					title = k_lincoln
 				} 
 				independent = no
-				top_liege = { character = ROOT }
-				is_feudal = yes
-				is_voter = no
+				liege = { character = ROOT }
+		#		is_feudal = yes
+				OR = { is_voter = no has_character_flag = give_senator_title }
 			}
 		}
 	}
@@ -2143,9 +2143,9 @@ title_senator_k_lincoln = {
 			temporary = no
 			title = k_lincoln
 		} 
-		is_voter = no
+		OR = { is_voter = no has_character_flag = give_senator_title }
 		independent = no
-		is_feudal = yes
+#		is_feudal = yes
 	}
 
 	revoke_trigger = {

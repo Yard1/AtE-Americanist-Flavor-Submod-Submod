@@ -159,3 +159,16 @@ EVTDESCAFI124;The great celebrations that surrounded my inauguration concluded a
 
 EVTDESCAAFI125;I am still thinking about [FromFrom.GetTitledFirstName]'s inauguration. While I was forced by Fate to be crowned alone and in misery, [FromFrom.GetSheHe] flaunted [FromFrom.GetHerHis] munificence with all [FromFrom.GetHerHis] guests and put up a spectacle that will be remembered for years to come...;;;;;;;;;;;;;x
 EVTDESCBAFI125;I am still thinking about [FromFrom.GetTitledFirstName]'s inauguration. While I am yet to be anointed [Root.GetTitle], [FromFrom.GetFirstName] is already flaunting [FromFrom.GetHerHis] crown with all of [FromFrom.PrimaryTitle.GetName]'s neighboring royalty after putting up a spectacle that will be remembered for years to come...;;;;;;;;;;;;;x
+
+#Modifiers
+uninaug_modifier;;Uninaugurated;;;;;;;;;;;;;x
+uninaug_modifier_desc;A [Root.Religion.GetName] ruler who has not been inaugurated by a judge of the faith will never be fully accepted by his vassals as legitimate.\nThe more years he wastes before being inaugurated, the more likely his vassals will be to doubt the validity of his divine right to rule.;;;;;;;;;;;;;x
+
+inaug_in_barn;Inaugurated in Seclusion;;;;;;;;;;;;;x
+inaug_in_barn_desc;This ruler was inaugurated in seclusion, without much celebration. While this is a clear sign of lack of wealth and influence, some members of the faith may also consider it a show of humility.;;;;;;;;;;;;;x
+
+inaug_in_war;Battlefield Inauguration;;;;;;;;;;;;;x
+inaug_in_war_desc;After endless procrastination, this ruler was eventually forced to be inaugurated in a hurry at the worst of times, in the middle of a war.;;;;;;;;;;;;;x
+
+extravagant_inaug;Extravagant Inauguration;;;;;;;;;;;;;x
+extravagant_inaug_desc;This ruler was inaugurated at the culmination of an entire month of glorious festivities in [Root.GetHerHis] honor, a clear show of power and wealth that few will forget.;;;;;;;;;;;;;x

@@ -108,4 +108,58 @@ succession_laws = {
 			always = no
 		}
 	}
+
+	succ_state_elective = {
+		oldest_child_opinion = -15
+		child_opinion = -5
+		dynasty_opinion = -5
+		vassal_opinion = 15
+		potential = {
+			tier = KING
+			has_title_flag = e_usa_senator_title
+			holder_scope = {
+				NOT = { religion_group = pagan_group }
+				is_nomadic = no
+				is_merchant_republic = no
+				is_patrician = no
+				OR = {
+					has_landed_title = e_usa
+					top_liege = {
+						has_landed_title = e_usa
+					}
+				}
+			}
+			NOT = { holder_scope = { government = military_governorate } }
+			NOT = { holder_scope = { government = chinese_imperial_government } }
+
+		}
+		allow = {
+			custom_tooltip = {
+				text = not_forced_tt
+				hidden_tooltip = {
+					holder_scope = { NOT = { has_character_flag = liege_forced_succ_law } }
+				}
+			}
+		}
+		effect = {
+			succession = {
+				base_type = feudal_elective
+				voting_rules = state_elective
+			}
+		}
+		revoke_allowed = {
+			always = no
+		}
+		default_selection = {
+			factor = 0
+			additive_modifier = { 
+				value = 1000
+				has_title_flag = e_usa_senator_title
+				#OR = {
+				#	holder_scope = { has_landed_title = e_usa }
+				#	holder_scope = { top_liege = { has_landed_title = e_usa } }
+				#}
+			}
+		}
+	}
 }
